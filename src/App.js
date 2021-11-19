@@ -35,18 +35,18 @@ function App() {
                         <p style={{color: '#F1F1E6'}}>The Christmas periods are widely associated with festivities, being together with beloved family members and friends, enjoying good food, opening presents, ..  Sadly not everyone is as fortunate as many of us to share the same experiences. The Rogue Reindeer team is dedicated to getting as many people the experiences/needs/life/knowledge/.. that they dream of as possible in our capacity. We will do everything to bring this to you as a community and we hope that you join us in this 'mission for life' for other people in return.</p>
                         </div>
 
+                        <div className={'row'}>
+                            <p style={{color: '#F1F1E6'}}><h2>Roadmap</h2></p>
+                           
 
+                        </div>
                         <div className={'row'}>
                             <p style={{color: '#F1F1E6'}}><h2>The team</h2></p>
                            
 
                         </div>
 
-                        <div className={'row'}>
-                            <p style={{color: '#F1F1E6'}}><h2>Roadmap</h2></p>
-                           
-
-                        </div>
+                      
                         <div className={'row'} style={{paddingTop: '10vh'}}>
                             <SocialButton img = {discord} title= 'Join Discord'/>
                             <SocialButton img= {twitter} title={'Join Twitter'}/>
