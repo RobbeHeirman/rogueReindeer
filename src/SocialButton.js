@@ -13,4 +13,6 @@ const SocialButton = (props) => {
     )
 }
 
+//Nog een social button voor de twitter TBD
+
 export default SocialButton

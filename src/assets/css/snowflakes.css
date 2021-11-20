@@ -466,6 +466,8 @@
   animation-delay: -6s;
 }
 
+
+
 /* added small blur every 6 snowflakes*/
 .snowflake:nth-child(6n) {
   filter: blur(1px);
