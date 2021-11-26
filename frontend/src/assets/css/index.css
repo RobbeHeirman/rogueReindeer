@@ -1,16 +1,35 @@
 @font-face {
-  font-family: "test";
-  src: url("../fonts/slkscr.ttf");
+  font-family: "title";
+  src: url("../fonts/Maple 3 Cartoon.otf");
 }
 html, body {
   padding: 0;
   margin: 0;
   width: 100%;
-  height: 100;
+  height: 100%;
   position: relative;
-  background: linear-gradient(#ee0707, #111);
+  background: #B11E31;
   color: #1BAA87;
-  font-family: "test", Fallback, serif;
+  font-family: "Oswald & Abel", Fallback, serif;
+}
+
+.snow-font {
+  font-family: "title", Fallback, serif;
+  color: white;
+  font-size: 500%;
+}
+
+.custom_nav {
+  background: white;
+  height: 9vh;
+}
+
+.interactive_button {
+  cursor: pointer;
+}
+
+.interactive_button:hover {
+  opacity: 0.5;
 }
 
 /*# sourceMappingURL=index.css.map */
