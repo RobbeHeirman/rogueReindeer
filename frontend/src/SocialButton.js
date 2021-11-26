@@ -1,8 +1,7 @@
 const SocialButton = (props) => {
-
     return (
         <div className={'col-6'} onClick={() => {
-            window.open('https://discord.gg/fDr769uxnM', '_blank')
+            window.open(props.link, '_blank')
         }}>
             <div className={'interactive_button'}>
                 <img src={props.img} alt={props.title}
