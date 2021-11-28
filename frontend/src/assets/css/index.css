@@ -13,7 +13,7 @@ html, body {
   height: 100%;
   position: relative;
   background: #D8D8D8;
-  font-family: "main", "Noto Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .snow-font {
@@ -22,6 +22,11 @@ html, body {
   font-size: 500%;
 }
 
+@media screen and (max-width: 400px) {
+  .snow-font {
+    font-size: 300%;
+  }
+}
 #mint-countdown {
   color: white;
 }
@@ -47,6 +52,18 @@ html, body {
 .nav-link {
   font-size: 30px;
   cursor: pointer;
+}
+
+.card {
+  background: #D8D8D8;
+  border: 0;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
 }
 
 /*# sourceMappingURL=index.css.map */
