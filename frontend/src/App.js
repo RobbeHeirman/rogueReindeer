@@ -15,6 +15,7 @@ import Navbar from "./Navbar";
 import ImageCard from "./ImageCard";
 import HeaderBlock from "./HeaderBlock";
 import SectionBlock from "./SectionBlock";
+//comment
 
 function App() {
     const snowflakes = Array(50).fill(<div className={"snowflake"}/>)
