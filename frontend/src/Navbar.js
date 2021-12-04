@@ -14,14 +14,19 @@ const Navbar = () => {
                     <ul className="navbar-nav">
                         <li className={'nav-item'}><a className={'nav-link'} href={'#story'}>Story</a></li>
                         <li className={'nav-item'}><a className={'nav-link'} href={'#vision'}>Vision</a></li>
+                        <li className={'nav-item'}><a className={'nav-link'} href={'#gifts'}>Gifts</a></li>
                         <li className={'nav-item'}><a className={'nav-link'} href={'#goals'}>Goals</a></li>
                         <li className={'nav-item'}><a className={'nav-link'} href={'#team'}>Team</a></li>
-                    </ul>
-                    <ul className="navbar-nav ms-auto">
+                        
+                        <ul className="navbar-nav ms-auto">
                         <li className={'nav-item p-2'}><button type={'button'} className={'btn btn-lg btn-dark'}>Connect</button></li>
 
 
                     </ul>
+                    
+                    </ul>
+                    
+                  
                 </div>
             </div>
         </nav>

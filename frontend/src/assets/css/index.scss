@@ -13,7 +13,7 @@ $black: hsl(0, 0%, 0%);
 }
 
 
-
+ //background: #fc5c3c;  VOORLOPIG DEZE KLEUR
 
 
 html, body {
@@ -26,7 +26,14 @@ html, body {
   background: #D8D8D8;
   //color:#1BAA87;
   font-family:  "Noto Sans", sans-serif;
+  color: black;
 }
+a:-webkit-any-link {
+  text-decoration: none;
+  color: #0000EE;
+  }
+  a:hover {
+    text-decoration: underline;}
 
 .snow-font {
 
@@ -37,7 +44,7 @@ html, body {
 
 @media screen and (max-width:400px){
  .snow-font{
-   font-size: 300%;
+   font-size: 250%;
  }
 }
 
@@ -47,7 +54,6 @@ html, body {
 
 .custom_nav{
   background: #D8D8D8;
-
   height: 9vh;
 }
 
@@ -63,7 +69,7 @@ html, body {
 
       background: -o-linear-gradient(330deg, $black, change-color($black, $lightness: 18%)) fixed;
       background: linear-gradient(120deg, $black, change-color($black, $lightness: 18%)) fixed;
-      //background: #B3000C;
+     
 }
 
 .nav-link {
@@ -72,8 +78,9 @@ html, body {
 }
 
 .card {
-  background: #D8D8D8;
+  background:#D8D8D8;
   border: 0;
+  
 }
 
 #btn-back-to-top {

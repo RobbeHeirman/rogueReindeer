@@ -1,5 +1,5 @@
 import CountDown from "./CountDown";
-import reindeer1 from "./assets/images/reindeer1.png";
+import reindeer1 from "./assets/images/gif.gif";
 import SocialButton from "./SocialButton";
 import discord from "./assets/images/Discord-Logo-Color.png";
 import twitter from "./assets/images/2021 Twitter logo - blue.png";
