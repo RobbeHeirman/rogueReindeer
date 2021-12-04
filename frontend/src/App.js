@@ -95,10 +95,11 @@ function App() {
           won’t be able to help everyone, but every life changed is for the
           better. Together, we can be a part of change!
         </SectionBlock>
-        <SectionBlock id={"gifts"} title={"Gifts for everyone!"}>
+        <SectionBlock id={"gifts"} title={"Gifts and utility for everyone!"}>
           <ul>
             <li>
-              We will be holding community giveaways, contests and activities
+              Rogue Reindeer are guaranteed access to future mints, airdrops and
+              more goodies
             </li>
             <li>
               RR holders will also have exclusive access to future airdrops, NFT
@@ -109,11 +110,15 @@ function App() {
               Donations to charity institutions, like{" "}
               <a href="https://www.pelicano.be">Pelicano</a> and Rogue Reindeer
               Make A Wish, that personally support children in need
-            </li>            
-            <li>NFT staking</li>
+            </li>
             <li>
-              We will buy a plot of land in a chosen metaverse by our
-              community, where we will host all kinds of activities for RR members{" "}
+              NFT staking will be introduced, powering our own ecosystem with
+              $ROGUE token
+            </li>
+            <li>
+              We’ll be looking to buy digital land in different Metaverses,
+              the location and what kind of activities will be decided together with
+              the community{" "}
             </li>
           </ul>
           <br />
@@ -127,10 +132,14 @@ function App() {
         <SectionBlock id={"goals"} title={"Supported charities"}>
           We currently have a partnership with the following charity:
           <ul>
-            <li><a href="https://www.pelicano.be">Pelicano</a></li>
+            <li>
+              <a href="https://www.pelicano.be">Pelicano</a>
+            </li>
             <li>More charities will be handpicked by the community! </li>
           </ul>
-          Join the <a href="https://discord.gg/nd7mRsXryC">Discord server</a>  to learn more about why we chose to support these wonderful charities and the crucial work they're doing.
+          Join the <a href="https://discord.gg/nd7mRsXryC">Discord server</a> to
+          learn more about why we chose to support these wonderful charities and
+          the crucial work they're doing.
           <br />
         </SectionBlock>
 
