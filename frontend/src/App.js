@@ -1,6 +1,6 @@
 import "./assets/css/snowflakes.css";
 
-// Reindeers
+// Reindeer
 import blitzen from "./assets/images/Blitzen.png";
 import dasher from "./assets/images/Dasher.png";
 import dancer from "./assets/images/Dancer.png";
@@ -95,7 +95,7 @@ function App() {
           won’t be able to help everyone, but every life changed is for the
           better. Together, we can be a part of change!
         </SectionBlock>
-        <SectionBlock id={"gifts"} title={"Gifts and utility for everyone!"}>
+        <SectionBlock id={"gifts"} title={"Utility and gifts for everyone!"}>
           <ul>
             <li>
               Rogue Reindeer are guaranteed access to future mints, airdrops and
@@ -121,7 +121,7 @@ function App() {
               the community{" "}
             </li>
           </ul>
-          <br />
+    
         </SectionBlock>
         <SectionBlock id={"goals"} title={"Goals"}>
           By growing the Rogue Reindeer brand, we want to bring value. Value to
