@@ -14,7 +14,6 @@ import ImageCard from "./ImageCard";
 import HeaderBlock from "./HeaderBlock";
 import SectionBlock from "./SectionBlock";
 //comment
-
 function App() {
   const snowflakes = Array(50).fill(<div className={"snowflake"} />);
   const images = [
@@ -159,6 +158,12 @@ function App() {
             ))}
           </div>
         </SectionBlock>
+        <div className={'row'} style={
+          {backgroundColor: 'red',
+          }
+        }>
+          <p> test </p>
+        </div>
         <button
           onClick={() => window.scrollTo(0, 0)}
           type="button"
