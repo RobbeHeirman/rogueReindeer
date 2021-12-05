@@ -6,8 +6,7 @@
   font-family: "main";
   src: url("../fonts/Ubuntu-Title.ttf");
 }
-html,
-body {
+html, body {
   padding: 0;
   margin: 0;
   width: 100%;
@@ -15,6 +14,16 @@ body {
   position: relative;
   background: #99c5c5;
   font-family: "Noto Sans", sans-serif;
+  color: black;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: #0000EE;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .snow-font {
@@ -25,7 +34,7 @@ body {
 
 @media screen and (max-width: 400px) {
   .snow-font {
-    font-size: 300%;
+    font-size: 250%;
   }
 }
 #mint-countdown {
@@ -59,21 +68,12 @@ body {
   background: #99c5c5;
   border: 0;
 }
-a:-webkit-any-link {
-  text-decoration: none;
-  color: inherit;
-}
 
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
   right: 20px;
   display: none;
-}
-
-.classname a {
-  color: #ffffff;
-  text-decoration: none;
 }
 
 /*# sourceMappingURL=index.css.map */
