@@ -14,7 +14,7 @@ const HeaderBlock = () => (
       <div className={"col-4"}></div>
       <div className={"row"}>
         <div className={"col-lg-7 col-sm-12"}>
-          <div className={"row h-100"}>
+          <div className={"row h-100 justify-content-md-center"}>
             <div className={"col-12 align-self-center"}>
               <h3 id={"mint-countdown"} className={"align-middle"}>
                 Mint countdown
@@ -23,7 +23,7 @@ const HeaderBlock = () => (
             </div>
           </div>
         </div>
-        <div className={"col-lg-5 col-sm-12"}>
+        <div className={"col-lg-5 col-sm-12 "}>
           <img alt={""} className={"img"} height="300px" src={reindeer1} />
         </div>
       </div>

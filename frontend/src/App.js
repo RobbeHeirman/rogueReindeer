@@ -13,6 +13,9 @@ import Navbar from "./Navbar";
 import ImageCard from "./ImageCard";
 import HeaderBlock from "./HeaderBlock";
 import SectionBlock from "./SectionBlock";
+import SocialButton from "./SocialButton";
+import discord from "./assets/images/Discord-Logo-Color.png";
+import twitter from "./assets/images/2021 Twitter logo - blue.png";
 //comment
 function App() {
   const snowflakes = Array(50).fill(<div className={"snowflake"} />);
@@ -115,12 +118,11 @@ function App() {
               $ROGUE token
             </li>
             <li>
-              We’ll be looking to buy digital land in different Metaverses,
-              the location and what kind of activities will be decided together with
+              We’ll be looking to buy digital land in different Metaverses, the
+              location and what kind of activities will be decided together with
               the community{" "}
             </li>
           </ul>
-    
         </SectionBlock>
         <SectionBlock id={"goals"} title={"Goals"}>
           By growing the Rogue Reindeer brand, we want to bring value. Value to
@@ -158,12 +160,29 @@ function App() {
             ))}
           </div>
         </SectionBlock>
-        <div className={'row'} style={
-          {backgroundColor: 'red',
-          }
-        }>
-          <p> test </p>
+        <div
+          className={"row d-flex justify-content-around"}
+          style={{
+            background: "#063a3a",
+            paddingTop: "1vh",
+            paddingBottom: "1vh",
+          }}
+        >
+          <div class="col-3">
+            <SocialButton
+              img={discord}
+              link={"https://discord.gg/fDr769uxnM"}
+            />
+          </div>
+
+          <div class="col-1">
+            <SocialButton
+              img={twitter}
+              link={"https://twitter.com/Rogue_Reindeer"}
+            />
+          </div>
         </div>
+
         <button
           onClick={() => window.scrollTo(0, 0)}
           type="button"
