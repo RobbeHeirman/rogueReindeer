@@ -22,14 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d216f8bc-e628-4ef4-894d-8d7d1196d819" name="Default Changelist" comment="setting up alchemy connect">
-      <change afterPath="$PROJECT_DIR$/frontend/scripts/deploy.js" afterDir="false" />
+    <list default="true" id="d216f8bc-e628-4ef4-894d-8d7d1196d819" name="Default Changelist" comment="Runscripts to for smart contract deployment">
+      <change afterPath="$PROJECT_DIR$/frontend/scripts/mint-nft.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/hardhat.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/hardhat.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/contracts/RogueReindeerNFT.sol" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/contracts/RogueReindeerNFT.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +184,7 @@
       <workItem from="1638552021436" duration="485000" />
       <workItem from="1638702427427" duration="1922000" />
       <workItem from="1638704895353" duration="2892000" />
-      <workItem from="1638881296992" duration="3348000" />
+      <workItem from="1638881296992" duration="6553000" />
     </task>
     <task id="LOCAL-00001" summary="update of front">
       <created>1637430896615</created>
@@ -307,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638887780917</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Runscripts to for smart contract deployment">
+      <created>1638889049783</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1638889049783</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +346,8 @@
     <MESSAGE value="hardhat install" />
     <MESSAGE value="added the contract" />
     <MESSAGE value="setting up alchemy connect" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting up alchemy connect" />
+    <MESSAGE value="Runscripts to for smart contract deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Runscripts to for smart contract deployment" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
