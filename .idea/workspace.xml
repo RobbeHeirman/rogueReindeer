@@ -22,9 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d216f8bc-e628-4ef4-894d-8d7d1196d819" name="Default Changelist" comment="hardhat install">
-      <change afterPath="$PROJECT_DIR$/frontend/src/contracts/RogueReindeerNFT.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d216f8bc-e628-4ef4-894d-8d7d1196d819" name="Default Changelist" comment="added the contract">
+      <change beforePath="$PROJECT_DIR$/frontend/src/contracts/RogueReindeerNFT.sol" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/contracts/RogueReindeerNFT.sol" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +48,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$" value="master" />
         <entry key="$PROJECT_DIR$/hashlips_art_engine" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="JupyterTrust" id="d1cae324-9a66-4ae9-a655-19208a83c768" />
   <component name="MarkdownSettingsMigration">
@@ -177,7 +178,7 @@
       <workItem from="1638552021436" duration="485000" />
       <workItem from="1638702427427" duration="1922000" />
       <workItem from="1638704895353" duration="2892000" />
-      <workItem from="1638881296992" duration="1906000" />
+      <workItem from="1638881296992" duration="2209000" />
     </task>
     <task id="LOCAL-00001" summary="update of front">
       <created>1637430896615</created>
@@ -284,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638886914290</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added the contract">
+      <created>1638887404011</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1638887404011</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +324,8 @@
     <MESSAGE value="added hashlips" />
     <MESSAGE value="hide overflow snowflakes, added footer, tried to fix navbar" />
     <MESSAGE value="hardhat install" />
-    <option name="LAST_COMMIT_MESSAGE" value="hardhat install" />
+    <MESSAGE value="added the contract" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the contract" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
