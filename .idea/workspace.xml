@@ -22,13 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d216f8bc-e628-4ef4-894d-8d7d1196d819" name="Default Changelist" comment="added hashlips">
+    <list default="true" id="d216f8bc-e628-4ef4-894d-8d7d1196d819" name="Default Changelist" comment="hide overflow snowflakes, added footer, tried to fix navbar">
+      <change beforePath="$PROJECT_DIR$/.idea/rouge_reindeers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rouge_reindeers.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/css/snowflakes.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/css/snowflakes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/css/snowflakes.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/css/snowflakes.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/css/snowflakes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/css/snowflakes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine" beforeDir="false" afterPath="$PROJECT_DIR$/hashlips_art_engine" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/hashlips_art_engine/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/hashlips_art_engine/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hashlips_art_engine" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="JupyterTrust" id="d1cae324-9a66-4ae9-a655-19208a83c768" />
@@ -147,6 +147,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Django Server.Main" />
       <item itemvalue="npm.start" />
     </list>
   </component>
@@ -174,7 +175,8 @@
       <workItem from="1638460127818" duration="9000" />
       <workItem from="1638552021436" duration="485000" />
       <workItem from="1638702427427" duration="1922000" />
-      <workItem from="1638704895353" duration="2264000" />
+      <workItem from="1638704895353" duration="2892000" />
+      <workItem from="1638881296992" duration="1399000" />
     </task>
     <task id="LOCAL-00001" summary="update of front">
       <created>1637430896615</created>
@@ -267,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638703976190</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="hide overflow snowflakes, added footer, tried to fix navbar">
+      <created>1638707288173</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1638707288173</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +292,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update of front" />
@@ -298,7 +306,8 @@
     <MESSAGE value="nog eens??" />
     <MESSAGE value="with comment" />
     <MESSAGE value="added hashlips" />
-    <option name="LAST_COMMIT_MESSAGE" value="added hashlips" />
+    <MESSAGE value="hide overflow snowflakes, added footer, tried to fix navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="hide overflow snowflakes, added footer, tried to fix navbar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
