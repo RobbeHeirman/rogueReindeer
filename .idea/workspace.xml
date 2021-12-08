@@ -23,9 +23,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d216f8bc-e628-4ef4-894d-8d7d1196d819" name="Default Changelist" comment="mint nft">
-      <change afterPath="$PROJECT_DIR$/hashlips_art_engine/nft-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/style-zinnia1bce.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/vendor.bundle1bce.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Ikon-Crypto9015.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Ikon-Crypto9015.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Ikon-Crypto9015.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Boldd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Lightd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Mediumd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Regulard41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-SemiBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-SemiBoldd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-brands-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-regular-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-solid-900d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/themify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/themifyd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/themifyd41d.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/Ethereum-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/RRsanta.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/scripts/mint-nft.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/scripts/mint-nft.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/css/Countdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/css/Countdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/css/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/css/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/css/snowflakes.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/css/snowflakes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/Maple 3 Cartoon.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/Round_Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/Santa's Air Mail.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/Snow Deer.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/Traffolight.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/Ubuntu-Title.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/slkscr.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/slkscrb.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/slkscre.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/slkscreb.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,10 +164,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers" />
+      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\src\assets" />
       <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\src\assets\images" />
-      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\src" />
-      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\src\assets\fonts" />
-      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\public" />
+      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\src\assets\css" />
+      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\public\static\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\" />
