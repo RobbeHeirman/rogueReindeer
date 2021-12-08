@@ -1,20 +1,1063 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="js">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="/static/images/Logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Welcome to rogue reindeer! Get your Reindeer NFT's here"/>
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/Logo.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <meta name="author" content="Rogue Reindeer Dev's" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Rogue Reindeer NFT on the Ethereum Blockchain"
+    />
+
+    <link rel="shortcut icon" href="../assets/images/Logo.png" />
+    <!--Browser tab icon-->
+
+    <link rel="manifest" href="../asset-manifest.json" />
+
     <title>Rogue Reindeer</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <meta property="og:title" content="Rogue Reindeer" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="../assets/images/Logo.png" />
+    <meta property="og:url" content="index.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta
+      property="og:description"
+      content="Rogue Reindeer NFT on the Ethereum Blockchain"
+    />
+    <meta property="og:site_name" content="Rogue Reindeer" />
+    <meta
+      name="twitter:image:alt"
+      content="Rogue Reindeer NFT on the Ethereum Blockchain"
+    />
+
+    <link rel="stylesheet" href="../assets/css/vendor.bundle1bce.css?ver=1930" />
+    <link
+      rel="stylesheet"
+      href="../assets/css/style-zinnia1bce.css?ver=1930"
+      id="changeTheme"
+    />
+
+    <link href="static/css/main.chunk.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/css/theme1bce.css?ver=1930" />
+    <style>
+      .bg-theme-dark {
+        background-color: #99c5c5 !important;
+      }
+      .nk-ovm.mask-c-dark.shape-v {
+        display: none !important;
+      }
+
+      .counter {
+        margin: -15px 0 30px;
+        font-size: 16px;
+        font-style: italic;
+      }
+
+      .has-fixed .header-main {
+        top: 0;
+      }
+
+      #ant-modal {
+        z-index: 100000;
+        position: absolute;
+      }
+
+      #root {
+        position: relative;
+        padding-bottom: 50px;
+      }
+
+      #root .btn.btn-md {
+        font-size: 18px !important;
+        padding: 15px 45px !important;
+        white-space: break-spaces;
+      }
+
+      #root .btn.btn-md[disabled] {
+        font-size: 12px !important;
+        max-width: 80%;
+        overflow: hidden;
+      }
+
+      .ant-layout {
+        background: transparent;
+      }
+
+      .ant-layout-header {
+        background: transparent !important;
+      }
+
+      #root main {
+        background: transparent !important;
+        padding: 0 !important;
+        text-align: center;
+      }
+
+      .App-Bar {
+        height: auto !important;
+        padding-top: 0 !important;
+        position: absolute !important;
+        bottom: 0 !important;
+        height: 40px !important;
+        padding: 0 !important;
+        top: auto !important;
+      }
+
+      .App-Bar-right > .ant-btn.ant-btn-primary.ant-btn-lg {
+        background: transparent !important;
+        border: none !important;
+        font-size: 14px !important;
+        box-shadow: none !important;
+      }
+
+      .ant-btn > span {
+        vertical-align: middle;
+      }
+
+      .App-Bar-right {
+        margin: 0 auto;
+      }
+
+      #root main .ant-btn-primary {
+        margin: 0 auto;
+        display: block;
+        white-space: break-spaces;
+        height: auto;
+      }
+
+      .modal-header {
+        background: #1a2029;
+        border-bottom: 0;
+      }
+
+      .modal-header .modal-title {
+        margin: 0 auto;
+        color: #fff;
+      }
+
+      .ant-select-dropdown {
+        z-index: 100000 !important;
+      }
+
+      .header-navbar-s1 .menu > .menu-item > a {
+        padding: 20px 15px !important;
+        font-size: 14px !important;
+      }
+
+      .ant-btn.ant-btn-text.ant-btn-circle.ant-btn-lg.ant-btn-icon-only {
+        display: none !important;
+      }
+
+      #root main .counter {
+        color: #fff;
+        display: none;
+      }
+
+      .eapps-social-share-buttons {
+        position: fixed !important;
+        z-index: 100 !important;
+      }
+
+      #root .buy,
+      #root .text,
+      #root #nova,
+      #root .app-title {
+        display: none !important;
+      }
+
+      #mint-box.not-connected #root {
+        padding-bottom: 15px;
+      }
+
+      #mint-box.not-connected .App-Bar {
+        display: none;
+      }
+
+      #mint-guide {
+        display: none;
+      }
+
+      #mint-box.not-connected #mint-guide {
+        display: block;
+      }
+
+      #modal-mint-guide .modal-body {
+        background: rgb(18, 8, 29);
+        background: linear-gradient(
+          333deg,
+          rgba(18, 8, 29, 1) 0%,
+          rgba(15, 3, 59, 1) 100%
+        );
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      @media only screen and (max-width: 768px) {
+        #modal-mint-guide h5 {
+          font-size: 16px;
+        }
+
+        #modal-mint-guide .circle {
+          width: 48px;
+          float: left;
+          margin-bottom: 15px;
+        }
+
+        #iframe-widget-wrapper {
+          height: 390px !important;
+        }
+      }
+
+      .circle {
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        width: 100%;
+        position: relative;
+        background-color: #fff;
+      }
+
+      .circle:before {
+        content: "";
+        display: block;
+        padding-top: 100%;
+      }
+
+      .circle-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        text-align: center;
+      }
+
+      .score-text {
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 1em;
+        line-height: 1em;
+        font-size: 32px;
+      }
+
+      #live-mint-feed {
+        white-space: nowrap;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        height: 300px;
+      }
+
+      #live-mint-feed .slide {
+        width: 200px;
+        display: inline-block;
+        text-align: center;
+        margin-right: 15px;
+      }
+
+      #live-mint-feed .slide .image {
+        display: block;
+        width: 100%;
+        
+        display: block;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-block: 15px;
+        position: relative;
+        box-shadow: 0 3px 8px 0 rgb(0 0 0 / 15%);
+      }
+
+      #live-mint-feed .slide .image:after {
+        content: "";
+        display: block;
+        padding-top: 100%;
+      }
+
+      #live-mint-feed .slide img {
+        max-width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+      }
+
+      #live-mint-feed .slide .name {
+        font-size: 18px;
+      }
+
+      #live-mint-feed .slide .minted {
+        display: block;
+        font-size: 14px;
+      }
+    </style>
   </head>
-  <body>
+  <body class="nk-body body-wider theme-dark mode-onepage">
+    <div class="nk-wrap">
+      <header
+        class="nk-header page-header is-transparent is-sticky is-shrink is-dark"
+        id="header"
+      >
+        <div class="header-main">
+          <div class="header-container container">
+            <div class="header-wrap">
+              <div class="header-logo logo">
+                <a href="index.html" class="logo-link">
+                  <img
+                    class="logo-dark"
+                    src="../assets/images/Logo.png"
+                    alt="logo"
+                  />
+                  <img
+                    class="logo-light"
+                    src="../assets/images/Logo.png"
+                    alt="logo"
+                  />
+                </a>
+              </div>
 
-    <div id="root">
+              <div class="header-nav-toggle">
+                <a
+                  href="#"
+                  class="navbar-toggle"
+                  data-menu-toggle="example-menu-04"
+                >
+                  <div class="toggle-line">
+                    <span></span>
+                  </div>
+                </a>
+              </div>
 
-    </div>
-  </body>
-</html>
+              <div class="header-navbar header-navbar-s1">
+                <nav class="header-menu" id="example-menu-04">
+                  <ul class="menu menu-s2">
+                    <li class="menu-item">
+                      <a class="menu-link nav-link" href="index.html#">Home</a>
+                    </li>
+                    
+                    <li class="menu-item">
+                      <a class="menu-link nav-link" href="index.html#about"
+                        >About</a
+                      >
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link nav-link" href="index.html#roadmap"
+                        >Roadmap</a
+                      >
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link nav-link" href="index.html#faq"
+                        >FAQ</a
+                      >
+                    </li>
+                    <li class="menu-item">
+                      <a target="_blank" href="https://discord.gg/nd7mRsXryC"
+                        ><em class="fab fa-discord"></em
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a
+                        target="_blank"
+                        href="https://twitter.com/Rogue_Reindeer/"
+                        ><em class="fab fa-twitter"></em
+                      ></a>
+                    </li>
+                  </ul>
+                  <ul class="menu-btns">                        
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-banner bg-theme-dark" id="home">
+          <div class="nk-banner">
+            <div
+              class="banner banner-mask-fix banner-fs banner-single tc-light"
+            >
+              <div class="banner-wrap ov-v">
+                <div class="container">
+                  <div
+                    class="
+                      row
+                      align-items-center
+                      justify-content-center justify-content-lg-between
+                      gutter-vr-30px
+                    "
+                  >
+                    <div class="col-lg-6">
+                      <div
+                        class="
+                          banner-caption
+                          wide-auto
+                          text-center text-lg-left
+                        "
+                      >
+                        <div class="cpn-head mt-0">
+                          <h1 class="title title-xl-2">
+                            Welcome to Rogue Reindeer
+                          </h1>
+                        </div>
+                        <div class="cpn-text cpn-text-s1">
+                          <p class="lead">
+                            10000 Rogue Reindeer on the
+                            Ethereum Blockchain
+                          </p>
+                        </div>
+                        <div id="mint-box" class="cpn-btns">
+                          <div
+                            class="
+                              token-status token-status-s5
+                              bg-theme-alt
+                              round
+                              no-bd
+                            "
+                          >
+                            <p>Mint date: 23 december</p>
+                            <a
+                              href="" 
+                              class="btn btn-grad btn-round"
+                              >23 december 2021 07:00 PM UTC +1</a
+                            >
+                          </div>
+                        </div>
+                        <div class="cpn-social">
+                          <ul class="social">
+                            <li>
+                              <a
+                                target="_blank"
+                                href=" https://discord.gg/nd7mRsXryC"
+                                ><em class="social-icon fab fa-discord"></em
+                              ></a>
+                            </li>
+                            <li>
+                              <a
+                                target="_blank"
+                                href="https://twitter.com/Rogue_Reindeer/"
+                                ><em class="social-icon fab fa-twitter"></em
+                              ></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-sm-9">
+                      <div
+                        class="
+                          token-status token-status-s5
+                          bg-transparent
+                          no-bd
+                        "
+                      >
+                        <img
+                          src="assets\images\gif.gif"
+                          alt=""
+                          style="max-width: 100%; border-radius: 5px"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nk-ovm mask-c-dark shape-v mask-contain-bottom"></div>
+        </div>
+      </header>
+      <main class="nk-pages">
+        <section
+          id="about"
+          class="section bg-white py-0 ov-h"
+          style="padding-top: 50px !important; padding-bottom: 50px !important"
+        >
+          <div class="container">
+            <div class="nk-block nk-block-features-2">
+              <div
+                class="
+                  row
+                  align-items-center
+                  gutter-vr-30px
+                  justify-content-center justify-content-md-between
+                "
+              >
+                <div class="col-mb-9 col-sm-7 col-md-6 col-lg-5">
+                  <div class="gfx py-4">
+                    <img src="assets\images\RRsanta.jpeg" alt="" />
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-6 text-center text-md-left">
+                  <div class="nk-block-text">
+                    <h4 class="title title-lg">What is Rogue Reindeer?</h4>
+                    <p class="lead">
+
+                        Everybody knows that Christmas presents from Santa are a huge hustle, paid for by the parents themselves.
+                        The rich parents pay Santa a lot of money to leave a buck load of presents under the Christmas tree, that joyful morning.  <br /><br />
+                        Meanwhile, less fortunate parents can't pay the huge fees that Santa asks for his service, even though their kids deserve it just as much.
+                        
+                        Santa's Reindeer have been doing the brunt work for years now, flying him around in his huge golden sled, witnessing this injustice. 
+                        <br /><br />
+                        They've had enough.
+                        10,000 Rogue Reindeer have escaped Santa's headquarters, soaring the Ethereum blockchain with a new purpose: to support the children who need it.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="section section-tokensale tc-light bg-theme"
+          id="economics"
+        >
+          <div class="container">
+            <div class="section-head text-center wide-auto-sm">
+              <h2 class="title title-s4" title="Why Rogue Reindeer?">
+                Why Rogue Reindeer?
+              </h2>
+              <ol>
+                <li>
+                    The Christmas period is a time for festivities with family and friends. 
+                    Time spent enjoying good food, opening presents, and sharing smiles around the fireplace.
+                    Sadly, not everyone is fortunate enough to share these experiences. 
+                    That is why we, the Rogue Reindeer team, are dedicated to spreading those jolly moments and hope that you join us in our MISSION OF JOY for those less fortunate.
+                     We
+                  hope to deliver high quality artwork to be used as a PFP or
+                  however you like. But why should you mint?<br /><br /><b
+                    >1. Aesthetics</b
+                  >
+                  - every attribute has been hand-drawn in house by <u><b><a href="https://www.instagram.com/piocomic/">Pío</a></b></u>. This is a
+                  completely original ground-up project. It was designed with
+                  profile pictures in mind so every piece will look great on
+                  your account.<br /><b>2. Guaranteed access</b> - Rogue Reindeer are guaranteed access to future mints, airdrops and more goodies.
+                   <br /><b>3. Low mint price </b>- We have kept
+                  the mint price low at <b>0.04 ETH</b> for accessibility.<br /><b
+                    >4. Charitable donation </b
+                  >- 10% of the proceeds from mint will go straight to charity.
+                  We have a partnership with <u><b><a href="https://www.pelicano.be">PELICANO</a></b></u> organization that supports children in need. 
+                  More charities will be chosen by community vote.<br />
+                  <b>5. NFT staking </b>
+                  - NFT staking will be introduced, powering our <b>own ecosystem with $ROGUE token</b><br />
+                  <b> 6. Metaverse</b>            -We’ll be looking to buy digital land in different Metaverses, 
+                  the location and what kind of activities will be decided together with the community. <br /><br />
+                </li>
+              </ol>
+            </div>
+            <div class="nk-block nk-block-token mgb-m30">
+              <div
+                class="
+                  row
+                  align-items-center
+                  justify-content-between
+                  gutter-vr-50px
+                "
+              >
+                <div class="col-lg-8">
+                  <div class="row gutter-vr-30px">
+                    <div class="col-sm-4">
+                      <div class="stage-info">
+                        <h6 class="title title-s6 title-xs-s2">
+                          Minting Begins
+                        </h6>
+                        <p>Dec 16 2021 07:00:00 UTC + 1<br /></p>
+                        <a
+                          rel="nofollow"
+                          class="btn btn-sm btn-grad btn-round"
+                          href="https://savvytime.com/converter/cet/dec-16-2021dec-16-2021/7-00pm"
+                          >Convert to your time</a
+                        >
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="stage-info">
+                        <h6 class="title title-s6 title-xs-s2">Total Mints</h6>
+                        <h2>10,000</h2>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="stage-info">
+                        <h6 class="title title-s6 title-xs-s2">
+                          Price per Mint
+                        </h6>
+                        <h2>0.04 ETH</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div
+                    class="
+                      token-status token-status-s5
+                      bg-theme-alt
+                      round
+                      no-bd
+                    "
+                  >
+                    <h6>Keep up with our launch updates</h6>
+                    <br />
+                    <ul class="social pdb-m justify-content-center">
+                      <li>
+                        <a target="_blank" href="https://discord.gg/nd7mRsXryC"
+                          ><em class="social-icon fab fa-discord"></em
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          target="_blank"
+                          href="https://twitter.com/Rogue_Reindeer/"
+                          ><em class="social-icon fab fa-twitter"></em
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-roadmap bg-theme tc-light" id="roadmap">
+          <div class="container">
+            <div class="section-head text-center wide-auto">
+              <h2 class="title title-lg title-dark">Roadmap</h2>
+              <p class="lead">
+                The primary value of Rogue Reindeer is the high quality
+                art. We wanted to develop an original and iconic project
+                exclusive for the Ethereum blockchain that holders can be proud of. However, we
+                are much more than just a pretty face.<br />
+              </p>
+            </div>
+            <div class="nk-block nk-block-roadmap">
+              <div class="row justify-content-center">
+                <div class="col-xl-10">
+                  <div class="roadmap-wrap">
+                    <div class="roadmap-line"></div>
+                    <div class="roadmap roadmap-right">
+                      <div class="roadmap-step">
+                        <div class="roadmap-head">
+                          <span class="roadmap-time"
+                            >Wednesday 22th December 2021</span
+                          >
+                          <span class="roadmap-title">PRESALE</span>
+                        </div>
+                        <p>
+                          To reward our earliest supporters and active members -
+                          those first 500 who joined our Discord and those with the Rogue Deer Role will be able to
+                          receive whitelist access to the
+                          full collection. They
+                          get an amazing opportunity to mint earlier with less rush.
+                          There will be no difference in mint price. <br />
+                        </p>
+                      </div>
+                    </div>
+                    <div class="roadmap roadmap-left">
+                      <div class="roadmap-step">
+                        <div class="roadmap-head">
+                          <span class="roadmap-time"
+                            >Thursday 23st december 2021</span
+                          >
+                          <span class="roadmap-title">LAUNCH</span>
+                        </div>
+                        <p>
+                          We launch the full collection to the public and get
+                          listed on OpenSea.<br />
+                        </p>
+                      </div>
+                    </div>
+                    <div class="roadmap roadmap-right">
+                      <div class="roadmap-step">
+                        <div class="roadmap-head">
+                          <span class="roadmap-time"></span>
+                          <span class="roadmap-title">DONATION</span>
+                        </div>
+                        <p>
+                          Upon selling out
+                          <b>we will distribute 10% of the proceeds</b> from our
+                          mint to charitable organizations. The first one will be <u><b><a href="https://www.pelicano.be">PELICANO</a></b></u>. We want to
+                          donate to organizations that are supporting children all over the world. More charities will be chosen by community vote.<br />
+                        </p>
+                      </div>
+                    </div>
+                    <div class="roadmap roadmap-left">
+                      <div class="roadmap-step">
+                        <div class="roadmap-head">
+                          <span class="roadmap-time"></span>
+                          <span class="roadmap-title">COMMUNITY</span>
+                        </div>
+                        <p>
+                          Once we launch our collection it is straight back to
+                          doing what we were doing when we started - providing
+                          value for the community and now, holders. We believe
+                          in value first, mint later. By growing the Rogue Reindeer brand, we want to bring value. 
+                          Value to the community as holders. 
+                          Value to the people that support us, but most importantly: to the children who need it most.
+                       <span></span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="roadmap roadmap-right">
+                      <div class="roadmap-step">
+                        <div class="roadmap-head">
+                          <span class="roadmap-time"></span>
+                          <span class="roadmap-title">ART</span>
+                        </div>
+                        <p>
+                          As art is at the core of our project, you can expect
+                          that there will be more art on the horizon. Holders
+                          will be eligible for air drops, access to smaller,
+                          much more exclusive collections and collaborations
+                          with other projects in the space. Our <u><b><a href="https://www.instagram.com/piocomic/">artist Pío</a></b></u>
+                          will create more content for future mints and introduce them in a comicbook where all the future NFT characters will meet. 
+                          Other digital art like a short movie will follow later on.<br />
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section bg-white pb-0" id="faq">
+          <div class="container">
+            <div class="section-head text-center wide-auto-sm">
+              <h2 class="title title-s4" title="FAQS">
+                Frequently Asked Questions
+              </h2>
+            </div>
+
+            <div class="nk-block">
+              <div
+                class="row justify-content-center"
+                style="margin-bottom: 100px"
+              >
+                <div class="col-xl-8 col-lg-10">
+                  <ul class="nav tab-nav tab-nav-line mgb-r">
+                    <li>
+                      <a class="active" data-toggle="tab" href="#about-project"
+                        >About this Project</a
+                      >
+                    </li>
+                    <li>
+                      <a data-toggle="tab" href="#about-nfts">About NFTs</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content">
+                    <div class="tab-pane fade show active" id="about-project">
+                      <div class="accordion accordion-faq" id="faq-content">
+                        <div class="accordion-item accordion-item-s4 bg-light">
+                          <h5
+                            class="accordion-title"
+                            data-toggle="collapse"
+                            data-target="#faq-content-0"
+                          >
+                            Where can I get one?
+                            <span
+                              class="accordion-icon accordion-icon-s2"
+                            ></span>
+                          </h5>
+                          <div
+                            id="faq-content-0"
+                            class="collapse"
+                            data-parent="#faq-content"
+                          >
+                            <div class="accordion-content">
+                              <p>
+                                Right here on the website. Make sure to follow
+                                us on Twitter and Discord to stay up to date!
+                              </p>
+                            </div>
+                          </div>
+                          <h5
+                            class="accordion-title"
+                            data-toggle="collapse"
+                            data-target="#faq-content-1"
+                          >
+                            How many pieces are there in the collection?
+                            <span
+                              class="accordion-icon accordion-icon-s2"
+                            ></span>
+                          </h5>
+                          <div
+                            id="faq-content-1"
+                            class="collapse"
+                            data-parent="#faq-content"
+                          >
+                            <div class="accordion-content">
+                              There are 10,000 pieces in the original Rogue
+                              Reindeer collection.
+                              We aim to be an inclusive project that many people
+                              can see themselves in and proudly use as their PFP
+                              as they navigate in the spac and in the upcoming chosen Metaverse.<br />
+                            </div>
+                          </div>
+                          <h5
+                            class="accordion-title"
+                            data-toggle="collapse"
+                            data-target="#faq-content-2"
+                          >
+                            How much will it cost to mint?
+                            <span
+                              class="accordion-icon accordion-icon-s2"
+                            ></span>
+                          </h5>
+                          <div
+                            id="faq-content-2"
+                            class="collapse"
+                            data-parent="#faq-content"
+                          >
+                            <div class="accordion-content">
+                              The mint price will be 0.04 ETH. If you do not
+                              have any ETH or you do not know what this means
+                              then please reach out to us in Discord or on
+                              Twitter and we would be happy to help you out.<br />
+                            </div>
+                          </div>
+                          <h5
+                            class="accordion-title"
+                            data-toggle="collapse"
+                            data-target="#faq-content-3"
+                          >
+                            Why did you start this project?
+                            <span
+                              class="accordion-icon accordion-icon-s2"
+                            ></span>
+                          </h5>
+                          <div
+                            id="faq-content-3"
+                            class="collapse"
+                            data-parent="#faq-content"
+                          >
+                            <div class="accordion-content">
+                              There are a lot of opportunities in the Crypto and
+                              NFT space. Finding much success ourselves, the
+                              first thing we could think about doing was
+                              spreading this opportunity to as many people as
+                              possible while also donating to childeren in need. We wanted to create a PFP project that
+                              had unique, beautiful and distinct art that we
+                              could build an inclusive and supportive community
+                              around. We want to share knowledge and help all
+                              our community members grow.<br />
+                            </div>
+                          </div>
+                          <h5
+                            class="accordion-title"
+                            data-toggle="collapse"
+                            data-target="#faq-content-4"
+                          >
+                            What's the story behind the art?
+                            <span
+                              class="accordion-icon accordion-icon-s2"
+                            ></span>
+                          </h5>
+                          <div
+                            id="faq-content-4"
+                            class="collapse"
+                            data-parent="#faq-content"
+                          >
+                            <div class="accordion-content">
+                              All of our art was lovingly made by our own <u><b><a href="https://www.instagram.com/piocomic/">artist Pío</a></b></u>
+                              from scratch, by hand. The aesthetic was achieved
+                              by designing unique themed traits, drawing
+                              inspiration from popculture and memes.
+                              <br />
+                            </div>
+                          </div>
+                          <h5
+                            class="accordion-title"
+                            data-toggle="collapse"
+                            data-target="#faq-content-5"
+                          >
+                            More questions?
+                            <span
+                              class="accordion-icon accordion-icon-s2"
+                            ></span>
+                          </h5>
+                          <div
+                            id="faq-content-5"
+                            class="collapse"
+                            data-parent="#faq-content"
+                          >
+                             <div class="accordion-content">
+                              Feel free to join us on <u><b><a href="https://discord.gg/nd7mRsXryC">Discord</a></b></u> 
+                              or follow us on <u><b><a href=" https://twitter.com/Rogue_Reindeer/">Twitter</a></b></u>. 
+                              We are happy to help!<br />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="about-nfts">
+                      <div class="accordion accordion-faq" id="faq-68">
+                        <div class="accordion-item accordion-item-s4 bg-light">
+                          <h5
+                            class="accordion-title"
+                            data-toggle="collapse"
+                            data-target="#faq-68-1"
+                          >
+                            What is an NFT?
+                            <span
+                              class="accordion-icon accordion-icon-s2"
+                            ></span>
+                          </h5>
+                          <div
+                            id="faq-68-1"
+                            class="collapse show"
+                            data-parent="#faq-68"
+                          >
+                            <div class="accordion-content">
+                              <p>
+                                Non-Fungible Tokens are unique, easily
+                                verifiable digital assets that can represent
+                                items such as GIFs, images, videos, music
+                                albums, and more. Anything that exists online
+                                can be purchased as an NFT, theoretically.
+                              </p>
+                              <p>
+                                NFTs are different from cryptocurrencies because
+                                they’re not interchangeable. Think of Pokémon
+                                cards: You can trade them, but a Gastly is not
+                                the same as a holographic Charizard. But a
+                                bitcoin is indistinguishable from another
+                                bitcoin.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        
+                        <div class="accordion-item accordion-item-s4 bg-light">
+                          <h5
+                            class="accordion-title collapsed"
+                            data-toggle="collapse"
+                            data-target="#faq-68-4"
+                          >
+                            Which wallet will I be able to use to mint an Rogue Reindeer NFT?
+                            <span
+                              class="accordion-icon accordion-icon-s2"
+                            ></span>
+                          </h5>
+                          <div
+                            id="faq-68-4"
+                            class="collapse"
+                            data-parent="#faq-68"
+                          >
+                            <div class="accordion-content">
+                              <p>
+                                As MetaMask is the most popular wallet, we have chosen MetaMask as our go-to wallet.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item accordion-item-s4 bg-light">
+                          <h5
+                            class="accordion-title collapsed"
+                            data-toggle="collapse"
+                            data-target="#faq-68-5"
+                          >
+                            How can you ensure distribution of mints is random?
+                            <span
+                              class="accordion-icon accordion-icon-s2"
+                            ></span>
+                          </h5>
+                          <div
+                            id="faq-68-5"
+                            class="collapse"
+                            data-parent="#faq-68"
+                          >
+                            <div class="accordion-content">
+                              <p>
+                                We will be using a smart contract deployed on
+                                the Ethereum chain to distribute the Rogue
+                                Reindeer. The tokens can be verified on the
+                                blockchain and our smart contract code can be
+                                audited by the Ethereum core devs.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      
+      </div>
+      <footer class="nk-footer bg-theme-alt section-connect">
+        <div class="section section-m pb-0 tc-light ov-h">
+          <div class="container py-4">
+            <div class="nk-block pb-lg-5">
+              <div class="row justify-content-center text-center">
+                <div class="col-lg-6 col-md-9">
+                  <div class="wide-auto-sm section-head section-head-sm pdb-r">
+                    <h4 class="title title-md">
+                      Stay up to date with our project
+                    </h4>
+                  </div>
+                  <p>Join us on our communities.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nk-ovm shape-contain shape-center-top shape-p"></div>
+        </div>
+        <div class="section section-footer section-s tc-light bg-transparent">
+          <div class="container">
+            <div class="nk-block block-footer">
+              <div class="row">
+                <div class="col">
+                  <div class="wgs wgs-text text-center mb-3">
+                    <ul class="social pdb-m justify-content-center">
+                      <li>
+                        <a target="_blank" href="https://discord.gg/nd7mRsXryC"
+                          ><em class="social-icon fab fa-discord"></em
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          target="_blank"
+                          href="https://twitter.com/Rogue_Reindeer/"
+                          ><em class="social-icon fab fa-twitter"></em
+                        ></a>
+                      </li>
+                    </ul>
+                    <div class="copyright-text copyright-text-s3 pdt-m">
+                      <p>
+                        <span class="d-sm-block"
+                          >Copyright &copy; 2021, Rogue Reindeer. </span
+                        >All trademarks and copyrights belong to their
+                        respective owners.
+                      </p>
+                     
+                      <p>
+                        <a href="https://ethereum.org/" target="_blank">
+                          Built on the Ethereum blockchain.
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>    
+    <script src="assets/js/jquery.bundle1bce.js?ver=1930"></script>
+    <script src="assets/js/scripts1bce.js?ver=1930"></script>
+    </body>
+ </html>

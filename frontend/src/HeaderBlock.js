@@ -35,7 +35,7 @@ const HeaderBlock = () => (
         />
         <SocialButton
           img={twitter}
-          title={"Join Twitter"}
+          title={"Follow us on Twitter"}
           link={"https://twitter.com/Rogue_Reindeer"}          
         />
        
