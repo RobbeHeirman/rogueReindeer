@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "hardhat": "^2.7.0",
     "react-scripts": "^4.0.3"
   }
 }
