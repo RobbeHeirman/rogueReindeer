@@ -11526,8 +11526,8 @@ hr + .nk-block {
 }
 .bg-theme .roadmap-step,
 .bg-theme-dark .roadmap-step {
-  background: #49191d;
-  border-color: #ff6c3f;
+  background: #415076;
+  border-color: #37bbbb;
 }
 .bg-theme .roadmap-step:before,
 .bg-theme-dark .roadmap-step:before {
@@ -15707,7 +15707,7 @@ hr + .nk-block {
   transition: all 0.4s;
 }
 .is-dark .header-navbar::before {
-  background: #ff8059;
+  background: #99c5c5;
 }
 .header-navbar-overlay {
   background: rgba(54, 8, 11, 0.7);
