@@ -53,8 +53,10 @@ ROOT_URLCONF = 'rogue_reindeer.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(PROJECT_DIR, 'frontend/build')
-                 ],
+        'DIRS': [
+            # os.path.join(PROJECT_DIR, 'frontend/build'),
+            os.path.join(PROJECT_DIR, 'frontend/src/')
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

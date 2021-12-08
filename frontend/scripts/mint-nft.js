@@ -47,4 +47,4 @@ async function mintNFT(tokenURI) {
     })
 }
 
-mintNFT("https://gateway.pinata.cloud/ipfs/QmPGS3mHjbjjkF564PpYmfajKmtv9dU1rFugmqFXY5pNPh");
+mintNFT("https://gateway.pinata.cloud/ipfs/QmTaVMH5RMEMR1ptcnpqYu6gQuvAq3yW5kfsn5JYwPi5cc");
