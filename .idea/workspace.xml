@@ -22,9 +22,118 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d216f8bc-e628-4ef4-894d-8d7d1196d819" name="Default Changelist" comment="hardhat install">
-      <change afterPath="$PROJECT_DIR$/frontend/src/contracts/RogueReindeerNFT.sol" afterDir="false" />
+    <list default="true" id="d216f8bc-e628-4ef4-894d-8d7d1196d819" name="Default Changelist" comment="mint nft">
+      <change afterPath="$PROJECT_DIR$/frontend/public/static/css/main.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/dot-a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/dot-b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/dot-c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hexagon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/light-ix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-a-dark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-a-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-a-md.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-a-md.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-a.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-c-dark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-c-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-c-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-c-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-c.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-d.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-d2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-d2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-e.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-f-footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-f-footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-f.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-line-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-line-a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-line-b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-line-c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-line-d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-line.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/polygon-a-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/polygon-a-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/polygon-fill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/polygon-line-a-fill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/polygon-line-a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/polygon-line-b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/polygon-line-c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-a-sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-a2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-b-sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-c-sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-d-sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-e-sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-f-sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-g-sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-h-sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-i-sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-o.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-q.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-s-sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-x-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-x-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-z.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-z2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-z3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-z4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-z6-sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-z6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-z7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_asc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_asc_disabled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_both.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_desc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_desc_disabled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/ui-shape-light-a.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/ui-shape-light-b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/ui-shape-zinnia-a.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/ui-shape-zinnia-b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/js/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/js/jquery.bundle1bce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/js/scripts1bce.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/css/style-zinnia1bce.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/css/style-zinnia1bce.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/css/vendor.bundle1bce.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/css/vendor.bundle1bce.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/gif.gif" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/gif.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,19 +150,30 @@
       <list>
         <option value="Python Script" />
         <option value="Sass File" />
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$" value="master" />
         <entry key="$PROJECT_DIR$/hashlips_art_engine" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JupyterTrust" id="d1cae324-9a66-4ae9-a655-19208a83c768" />
   <component name="MarkdownSettingsMigration">
@@ -74,7 +194,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/assets/js" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -90,12 +210,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\src\assets\images" />
-      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\src" />
-      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\src\assets\fonts" />
-      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\public" />
+      <recent name="C:\Users\Rheirman\rogueReindeer\frontend\src\assets\js" />
+      <recent name="C:\Users\Rheirman\rogueReindeer\frontend\src\assets\images" />
+      <recent name="C:\Users\Rheirman\rogueReindeer\frontend\src\assets\css" />
+      <recent name="C:\Users\Rheirman\rogueReindeer" />
+      <recent name="C:\Users\Rheirman\rogueReindeer\frontend\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\" />
       <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\src" />
       <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers" />
       <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\backend" />
@@ -177,7 +299,7 @@
       <workItem from="1638552021436" duration="485000" />
       <workItem from="1638702427427" duration="1922000" />
       <workItem from="1638704895353" duration="2892000" />
-      <workItem from="1638881296992" duration="1906000" />
+      <workItem from="1638881296992" duration="14759000" />
     </task>
     <task id="LOCAL-00001" summary="update of front">
       <created>1637430896615</created>
@@ -284,7 +406,35 @@
       <option name="project" value="LOCAL" />
       <updated>1638886914290</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added the contract">
+      <created>1638887404011</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1638887404011</updated>
+    </task>
+    <task id="LOCAL-00017" summary="setting up alchemy connect">
+      <created>1638887780917</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1638887780917</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Runscripts to for smart contract deployment">
+      <created>1638889049783</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1638889049783</updated>
+    </task>
+    <task id="LOCAL-00019" summary="mint nft">
+      <created>1638892269070</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1638892269070</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +450,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update of front" />
@@ -316,7 +467,11 @@
     <MESSAGE value="added hashlips" />
     <MESSAGE value="hide overflow snowflakes, added footer, tried to fix navbar" />
     <MESSAGE value="hardhat install" />
-    <option name="LAST_COMMIT_MESSAGE" value="hardhat install" />
+    <MESSAGE value="added the contract" />
+    <MESSAGE value="setting up alchemy connect" />
+    <MESSAGE value="Runscripts to for smart contract deployment" />
+    <MESSAGE value="mint nft" />
+    <option name="LAST_COMMIT_MESSAGE" value="mint nft" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
