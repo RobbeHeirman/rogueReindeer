@@ -36,7 +36,7 @@ const App = () => {
                                                 </div>
                                                 <div className="cpn-text cpn-text-s1">
                                                     <p className="lead">
-                                                        10000 Rogue Reindeer on the
+                                                        10.000 Rogue Reindeer on the
                                                         Ethereum Blockchain
                                                     </p>
                                                 </div>
