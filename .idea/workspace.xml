@@ -23,117 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d216f8bc-e628-4ef4-894d-8d7d1196d819" name="Default Changelist" comment="mint nft">
-      <change afterPath="$PROJECT_DIR$/frontend/public/static/css/main.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/dot-a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/dot-b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/dot-c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hexagon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/light-ix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-a-dark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-a-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-a-md.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-a-md.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-a.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-b.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-c-dark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-c-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-c-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-c-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-c.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-d.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-d2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-d2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-e.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-f-footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-f-footer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-f.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-line-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-line-a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-line-b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-line-c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-line-d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-line.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/polygon-a-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/polygon-a-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/polygon-fill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/polygon-line-a-fill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/polygon-line-a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/polygon-line-b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/polygon-line-c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-a-sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-a2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-b-sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-c-sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-d-sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-e-sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-f-sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-g-sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-g.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-h-sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-i-sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-i.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-m.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-o.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-p.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-q.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-r.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-s-sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-t.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-u.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-x-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-x-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-y.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-z.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-z2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-z3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-z4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-z6-sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-z6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape-z7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_asc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_asc_disabled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_both.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_desc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_desc_disabled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/ui-shape-light-a.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/ui-shape-light-b.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/ui-shape-zinnia-a.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/ui-shape-zinnia-b.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/js/charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/js/jquery.bundle1bce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/js/scripts1bce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/Logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/Logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/css/style-zinnia1bce.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/css/style-zinnia1bce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/css/vendor.bundle1bce.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/css/vendor.bundle1bce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/gif.gif" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/gif.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/mask-a-dark.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-a-dark.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/mask-c-dark.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-c-dark.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/mask-d2.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-d2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/mask-line-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-line-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/mask-line.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-line.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/sort_asc.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_asc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/sort_asc_disabled.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_asc_disabled.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/sort_both.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_both.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/sort_desc.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_desc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/sort_desc_disabled.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_desc_disabled.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +96,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/assets/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/assets/images" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -210,8 +112,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Rheirman\rogueReindeer\frontend\src\assets\js" />
       <recent name="C:\Users\Rheirman\rogueReindeer\frontend\src\assets\images" />
+      <recent name="C:\Users\Rheirman\rogueReindeer\frontend\src\assets\js" />
       <recent name="C:\Users\Rheirman\rogueReindeer\frontend\src\assets\css" />
       <recent name="C:\Users\Rheirman\rogueReindeer" />
       <recent name="C:\Users\Rheirman\rogueReindeer\frontend\public" />
