@@ -22,20 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d216f8bc-e628-4ef4-894d-8d7d1196d819" name="Default Changelist" comment="mint nft">
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/Logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/mask-a-dark.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-a-dark.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/mask-c-dark.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-c-dark.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/mask-d2.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-d2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/mask-line-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-line-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/mask-line.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask-line.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/sort_asc.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_asc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/sort_asc_disabled.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_asc_disabled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/sort_both.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_both.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/sort_desc.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_desc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/sort_desc_disabled.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/sort_desc_disabled.html" afterDir="false" />
+    <list default="true" id="d216f8bc-e628-4ef4-894d-8d7d1196d819" name="Default Changelist" comment="more changes">
+      <change beforePath="$PROJECT_DIR$/backend/rogue_reindeer/rogue_reindeer/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/rogue_reindeer/rogue_reindeer/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638892269070</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="more changes">
+      <created>1639065301924</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1639065301924</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +368,8 @@
     <MESSAGE value="setting up alchemy connect" />
     <MESSAGE value="Runscripts to for smart contract deployment" />
     <MESSAGE value="mint nft" />
-    <option name="LAST_COMMIT_MESSAGE" value="mint nft" />
+    <MESSAGE value="more changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="more changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
