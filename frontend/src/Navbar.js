@@ -39,12 +39,17 @@ const Navbar = () => {
                                     >
                                 </li>
                                 <li className="menu-item">
-                                    <a className="menu-link nav-link" href="index.html#roadmap"
+                                    <a className="menu-link nav-link" href="#whyMint"
+                                    >Why mint?</a
+                                    >
+                                </li>
+                                <li className="menu-item">
+                                    <a className="menu-link nav-link" href="#roadmap"
                                     >Roadmap</a
                                     >
                                 </li>
                                 <li className="menu-item">
-                                    <a className="menu-link nav-link" href="index.html#faq"
+                                    <a className="menu-link nav-link" href="#faq"
                                     >FAQ</a
                                     >
                                 </li>

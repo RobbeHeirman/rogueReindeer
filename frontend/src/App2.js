@@ -137,7 +137,7 @@ const App = () => {
                                             in his huge golden sled, witnessing this injustice.
                                             <br/><br/>
                                             They've had enough.
-                                            10,000 Rogue Reindeer have escaped Santa's headquarters, soaring the
+                                            10.000 Rogue Reindeer have escaped Santa's headquarters, soaring the
                                             Ethereum
                                             blockchain with a new purpose: to support the children who need it.
 
@@ -151,7 +151,7 @@ const App = () => {
 
                 <section
                     className="section section-tokensale tc-light bg-theme"
-                    id="economics"
+                    id="whyMint"
                 >
                     <div className="container">
                         <div className="section-head text-center wide-auto-sm">
@@ -225,7 +225,7 @@ const App = () => {
                                         <div className="col-sm-4">
                                             <div className="stage-info">
                                                 <h6 className="title title-s6 title-xs-s2">Total Mints</h6>
-                                                <h2>10,000</h2>
+                                                <h2>10.000</h2>
                                             </div>
                                         </div>
                                         <div className="col-sm-4">
@@ -324,8 +324,7 @@ const App = () => {
                                                     <span className="roadmap-title">DONATION</span>
                                                 </div>
                                                 <p>
-                                                    Upon selling out
-                                                    <b>we will distribute 10% of the proceeds</b> from our
+                                                    Upon selling out <b> we will distribute 10% of the proceeds</b> from our
                                                     mint to charitable organizations. The first one will be <u><b><a
                                                     href="https://www.pelicano.be">PELICANO</a></b></u>. We want to
                                                     donate to organizations that are supporting children all over the
@@ -362,8 +361,8 @@ const App = () => {
                                                     will be eligible for air drops, access to smaller,
                                                     much more exclusive collections and collaborations
                                                     with other projects in the space. Our <u><b><a
-                                                    href="https://www.instagram.com/piocomic/">artist Pío</a></b></u>
-                                                    will create more content for future mints and introduce them in a
+                                                    href="https://www.instagram.com/piocomic/">artist Pío</a></b></u> will 
+                                                    create more content for future mints and introduce them in a
                                                     comicbook where all the future NFT characters will meet.
                                                     Other digital art like a short movie will follow later on.<br/>
                                                 </p>
@@ -444,11 +443,11 @@ const App = () => {
                                                         data-parent="#faq-content"
                                                     >
                                                         <div className="accordion-content">
-                                                            There are 10,000 pieces in the original Rogue
+                                                            There are 10.000 pieces in the original Rogue
                                                             Reindeer collection.
                                                             We aim to be an inclusive project that many people
                                                             can see themselves in and proudly use as their PFP
-                                                            as they navigate in the spac and in the upcoming chosen
+                                                            as they navigate in the space and in the upcoming chosen
                                                             Metaverse.<br/>
                                                         </div>
                                                     </div>
@@ -494,7 +493,7 @@ const App = () => {
                                                             NFT space. Finding much success ourselves, the
                                                             first thing we could think about doing was
                                                             spreading this opportunity to as many people as
-                                                            possible while also donating to childeren in need. We wanted
+                                                            possible while also donating to children in need. We wanted
                                                             to
                                                             create a PFP project that
                                                             had unique, beautiful and distinct art that we
@@ -521,8 +520,7 @@ const App = () => {
                                                         <div className="accordion-content">
                                                             All of our art was lovingly made by our own <u><b><a
                                                             href="https://www.instagram.com/piocomic/">artist
-                                                            Pío</a></b></u>
-                                                            from scratch, by hand. The aesthetic was achieved
+                                                            Pío</a></b></u> from scratch, by hand. The aesthetic was achieved
                                                             by designing unique themed traits, drawing
                                                             inspiration from popculture and memes.
                                                             <br/>
@@ -545,8 +543,7 @@ const App = () => {
                                                     >
                                                         <div className="accordion-content">
                                                             Feel free to join us on <u><b><a
-                                                            href="https://discord.gg/nd7mRsXryC">Discord</a></b></u>
-                                                            or follow us on <u><b><a
+                                                            href="https://discord.gg/nd7mRsXryC">Discord</a></b></u> or follow us on <u><b><a
                                                             href=" https://twitter.com/Rogue_Reindeer/">Twitter</a></b></u>.
                                                             We are happy to help you answer any question you might
                                                             have!<br/>
@@ -578,16 +575,16 @@ const App = () => {
                                                                 Non-Fungible Tokens are unique, easily
                                                                 verifiable digital assets that can represent
                                                                 items such as GIFs, images, videos, music
-                                                                albums, and more. Anything that exists online
+                                                                albums, tickets to the game and more. Anything that exists online
                                                                 can be purchased as an NFT, theoretically.
                                                             </p>
                                                             <p>
                                                                 NFTs are different from cryptocurrencies because
                                                                 they’re not interchangeable. Think of Pokémon
-                                                                cards: You can trade them, but a Gastly is not
+                                                                cards: You can trade them, but a Magikarp is not
                                                                 the same as a holographic Charizard. But a
-                                                                bitcoin is indistinguishable from another
-                                                                bitcoin.
+                                                                Bitcoin is indistinguishable from another
+                                                                Bitcoin.
                                                             </p>
                                                         </div>
                                                     </div>
