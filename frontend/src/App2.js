@@ -170,7 +170,7 @@ const App = () => {
                                     We
                                     hope to deliver high quality artwork to be used as a PFP or
                                     however you like. <br/> <b>But why should you mint?</b><br/><br/><b
-                                >1. Aesthetics</b
+                                >1. Aesthetics </b
                                 >
                                     - every attribute has been hand-drawn in house by <u><b><a
                                     href="https://www.instagram.com/piocomic/">Pío</a></b></u>. This is a
@@ -184,14 +184,14 @@ const App = () => {
                                 >4. Charitable donation </b
                                 >- 10% of the proceeds from mint will go straight to charity.
                                     We have a partnership with <u><b><a
-                                    href="https://www.pelicano.be">PELICANO</a></b></u> organization that supports
+                                    href="https://www.pelicano.be">PELICANO</a></b></u>, an organization that supports
                                     children
                                     in need.
                                     More charities will be chosen by community vote.<br/>
                                     <b>5. NFT staking </b>
                                     - NFT staking will be introduced, powering our <b>own ecosystem with $ROGUE
                                     token</b><br/>
-                                    <b> 6. Metaverse</b> -We’ll be looking to buy digital land in different Metaverses,
+                                    <b> 6. Metaverse</b> - We’ll be looking to buy digital land in different Metaverses,
                                     the location and what kind of activities will be decided together with the
                                     community. <br/><br/>
                                 </li>
@@ -307,7 +307,7 @@ const App = () => {
                                             <div className="roadmap-step">
                                                 <div className="roadmap-head">
                           <span className="roadmap-time"
-                          >Thursday 23st december 2021</span
+                          >Thursday 23 december 2021</span
                           >
                                                     <span className="roadmap-title">LAUNCH</span>
                                                 </div>
