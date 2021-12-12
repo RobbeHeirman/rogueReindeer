@@ -60,7 +60,7 @@ const App = () => {
                                                 <div className="cpn-social">
                                                     <ul className="social">
                                                         <li>
-                                                            <a target="_blank" href=" https://discord.gg/nd7mRsXryC">
+                                                            <a target="_blank" href="https://discord.gg/QrFNGhKVDV">
                                                                 <em className="social-icon fab fa-discord"/>
                                                             </a>
                                                         </li>
@@ -190,7 +190,7 @@ const App = () => {
                                     More charities will be chosen by community vote.<br/>
                                     <b>5. NFT staking </b>
                                     - NFT staking will be introduced, powering our <b>own ecosystem with $ROGUE
-                                    token</b><br/>
+                                    token.</b><br/>
                                     <b> 6. Metaverse</b> - We’ll be looking to buy digital land in different Metaverses,
                                     the location and what kind of activities will be decided together with the
                                     community. <br/><br/>
@@ -251,7 +251,7 @@ const App = () => {
                                         <br/>
                                         <ul className="social pdb-m justify-content-center">
                                             <li>
-                                                <a target="_blank" href="https://discord.gg/nd7mRsXryC"
+                                                <a target="_blank" href="https://discord.gg/QrFNGhKVDV"
                                                 ><em className="social-icon fab fa-discord"/></a>
                                             </li>
                                             <li>
@@ -294,7 +294,7 @@ const App = () => {
                                                 </div>
                                                 <p>
                                                     To reward our earliest supporters and active members -
-                                                    those first 500 who joined our Discord and those with the Rogue Deer
+                                                    those first 500 who join our Discord and those with the Rogue Deer
                                                     Role will be able to
                                                     receive whitelist access to the
                                                     full collection. They
@@ -543,7 +543,7 @@ const App = () => {
                                                     >
                                                         <div className="accordion-content">
                                                             Feel free to join us on <u><b><a
-                                                            href="https://discord.gg/nd7mRsXryC">Discord</a></b></u> or follow us on <u><b><a
+                                                            href="https://discord.gg/QrFNGhKVDV">Discord</a></b></u> or follow us on <u><b><a
                                                             href=" https://twitter.com/Rogue_Reindeer/">Twitter</a></b></u>.
                                                             We are happy to help you answer any question you might
                                                             have!<br/>
@@ -678,7 +678,7 @@ const App = () => {
                                     <div className="wgs wgs-text text-center mb-3">
                                         <ul className="social pdb-m justify-content-center">
                                             <li>
-                                                <a target="_blank" href="https://discord.gg/nd7mRsXryC"
+                                                <a target="_blank" href="https://discord.gg/QrFNGhKVDV"
                                                 ><em className="social-icon fab fa-discord"/></a>
                                             </li>
                                             <li>

@@ -54,7 +54,7 @@ const Navbar = () => {
                                     >
                                 </li>
                                 <li className="menu-item">
-                                    <a target="_blank" href="https://discord.gg/nd7mRsXryC"
+                                    <a target="_blank" href="https://discord.gg/QrFNGhKVDV"
                                     ><em className="fab fa-discord"></em
                                     ></a>
                                 </li>
