@@ -364,7 +364,7 @@ const App = () => {
                                                     href="https://www.instagram.com/piocomic/">artist Pío</a></b></u> will 
                                                     create more content for future mints and introduce them in a
                                                     comicbook where all the future NFT characters will meet.
-                                                    Other digital art like a short movie will follow later on.<br/>
+                                                    Other digital art like a <b>short movie</b> and a <b>browser game</b> will follow later on.<br/>
                                                 </p>
                                             </div>
                                         </div>
