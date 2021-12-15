@@ -180,11 +180,11 @@ const App = () => {
                                     guaranteed
                                     access to future mints, airdrops and more goodies.
                                     <br/><b>3. Low mint price </b>- We have kept
-                                    the mint price low at <b>0.04 ETH</b> for accessibility.<br/><b
+                                    the mint price low at <b>0.03 ETH</b> for accessibility.<br/><b
                                 >4. Charitable donation </b
                                 >- 10% of the proceeds from mint will go straight to charity.
                                     We have a partnership with <u><b><a
-                                    href="https://www.pelicano.be">PELICANO</a></b></u>, an organization that supports
+                                    href="https://www.pelicano.be">STICHTING PELICANO</a></b></u>, an organization that supports
                                     children
                                     in need.
                                     More charities will be chosen by community vote.<br/>
@@ -233,7 +233,7 @@ const App = () => {
                                                 <h6 className="title title-s6 title-xs-s2">
                                                     Price per Mint
                                                 </h6>
-                                                <h2>0.04 ETH</h2>
+                                                <h2>0.03 ETH</h2>
                                             </div>
                                         </div>
                                     </div>
@@ -326,7 +326,7 @@ const App = () => {
                                                 <p>
                                                     Upon selling out <b> we will distribute 10% of the proceeds</b> from our
                                                     mint to charitable organizations. The first one will be <u><b><a
-                                                    href="https://www.pelicano.be">PELICANO</a></b></u>. We want to
+                                                    href="https://www.pelicano.be">STICHTING PELICANO</a></b></u>. We want to
                                                     donate to organizations that are supporting children all over the
                                                     world.
                                                     More charities will be chosen by community vote.<br/>
@@ -467,7 +467,7 @@ const App = () => {
                                                         data-parent="#faq-content"
                                                     >
                                                         <div className="accordion-content">
-                                                            The mint price will be 0.04 ETH. If you do not
+                                                            The mint price will be 0.03 ETH. If you do not
                                                             have any ETH or you do not know what this means
                                                             then please reach out to us in Discord or on
                                                             Twitter and we would be happy to help you out.<br/>
