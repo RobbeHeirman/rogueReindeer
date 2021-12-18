@@ -22,81 +22,32 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d216f8bc-e628-4ef4-894d-8d7d1196d819" name="Default Changelist" comment="mint nft">
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/style-zinnia1bce.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/vendor.bundle1bce.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Ikon-Crypto9015.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Ikon-Crypto9015.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Ikon-Crypto9015.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Boldd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Lightd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Mediumd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-Regulard41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-SemiBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-SemiBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-SemiBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Poppins-SemiBoldd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-brands-400d41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-regular-400d41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fa-solid-900d41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/themify.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/themify.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/themify.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/themifyd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/themifyd41d.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/Ethereum-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/RRsanta.jpeg" afterDir="false" />
+    <list default="true" id="d216f8bc-e628-4ef4-894d-8d7d1196d819" name="Default Changelist" comment="iter">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rouge_reindeers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rouge_reindeers.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/css/Countdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/css/Countdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/css/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/assets/css/snowflakes.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/css/snowflakes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/Maple 3 Cartoon.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/Round_Regular.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/Santa's Air Mail.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/Snow Deer.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/Traffolight.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/Ubuntu-Title.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/slkscr.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/slkscrb.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/slkscre.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/fonts/slkscreb.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Background/Black#1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Bottom lid/High#20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Bottom lid/Low#40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Bottom lid/Middle#40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Eye color/Cyan#1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Eye color/Green#1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Eye color/Pink#1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Eye color/Purple#1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Eye color/Red#1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Eye color/Yellow#10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Eyeball/Red#50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Eyeball/White#50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Goo/Green#1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Iris/Large#20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Iris/Medium#20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Iris/Small#60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Shine/Shapes#100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Top lid/High#30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Top lid/Low#20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Top lid/Middle#50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/hashlips_art_engine/src/config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +73,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
-        <entry key="$PROJECT_DIR$/hashlips_art_engine" value="main" />
+        <entry key="$PROJECT_DIR$/hashlips_art_engine" value="dapp_integration" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -224,7 +175,6 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django Server.Main" />
       <item itemvalue="npm.start" />
     </list>
   </component>
@@ -254,6 +204,8 @@
       <workItem from="1638702427427" duration="1922000" />
       <workItem from="1638704895353" duration="2892000" />
       <workItem from="1638881296992" duration="14759000" />
+      <workItem from="1639228102592" duration="1699000" />
+      <workItem from="1639830100262" duration="2083000" />
     </task>
     <task id="LOCAL-00001" summary="update of front">
       <created>1637430896615</created>
@@ -388,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638892269070</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="iter">
+      <created>1638992316236</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1638992316236</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,6 +363,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update of front" />
@@ -424,7 +384,8 @@
     <MESSAGE value="setting up alchemy connect" />
     <MESSAGE value="Runscripts to for smart contract deployment" />
     <MESSAGE value="mint nft" />
-    <option name="LAST_COMMIT_MESSAGE" value="mint nft" />
+    <MESSAGE value="iter" />
+    <option name="LAST_COMMIT_MESSAGE" value="iter" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
