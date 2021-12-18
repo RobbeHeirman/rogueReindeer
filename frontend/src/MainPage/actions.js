@@ -6,7 +6,7 @@ const { createAlchemyWeb3 } = require("@alch/alchemy-web3");
 const web3 = createAlchemyWeb3(alchemyKey);
 
 const contractABI = require("../Dapp/artifacts/contracts/RogueReindeerNFT.sol/RogueReindeerNFT.json").abi;
-const contractAddress = "0x1184d05074b4e8f4d4db86151ec5df919a9e662a";
+const contractAddress = "0x05268471fd0C22F446dfcC00a58BC2B58e29eE7e";
 /**
  *
  * @param method the method we call the etherium request

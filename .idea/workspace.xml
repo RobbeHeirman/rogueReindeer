@@ -23,215 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d216f8bc-e628-4ef4-894d-8d7d1196d819" name="Default Changelist" comment="settings">
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/Minter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/access/Ownable.sol/Ownable.dbg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/access/Ownable.sol/Ownable.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/token/ERC721/ERC721.sol/ERC721.dbg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/token/ERC721/ERC721.sol/ERC721.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/token/ERC721/IERC721.sol/IERC721.dbg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/token/ERC721/IERC721.sol/IERC721.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol/IERC721Receiver.dbg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol/IERC721Receiver.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol/ERC721URIStorage.dbg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol/ERC721URIStorage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol/IERC721Metadata.dbg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol/IERC721Metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/utils/Address.sol/Address.dbg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/utils/Address.sol/Address.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/utils/Context.sol/Context.dbg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/utils/Context.sol/Context.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/utils/Counters.sol/Counters.dbg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/utils/Counters.sol/Counters.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/utils/Strings.sol/Strings.dbg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/utils/Strings.sol/Strings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/utils/introspection/ERC165.sol/ERC165.dbg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/utils/introspection/ERC165.sol/ERC165.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/utils/introspection/IERC165.sol/IERC165.dbg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/@openzeppelin/contracts/utils/introspection/IERC165.sol/IERC165.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/build-info/6c6fed179b2e37e687de1858d76e35d4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/contracts/RogueReindeerNFT.sol/RogueReindeerNFT.dbg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/contracts/RogueReindeerNFT.sol/RogueReindeerNFT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/pinata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/MainPage/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/dapp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashlips_art_engine/layers/BACKIES/lichaam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashlips_art_engine/layers/BODIES/lichaam.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rouge_reindeers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rouge_reindeers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/build-info/264cf13a1b7efb49e263355f482a41fb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/contracts/RogueReindeerNFT.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/css/fonts/flexslider-icon-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/css/fonts/flexslider-icon-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/css/fonts/flexslider-icon-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/css/fonts/flexslider-icon.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/css/fonts/flexslider-icond41d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/css/owl.video.play.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/css/style-zinnia1bce.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/css/theme1bce.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/css/vendor.bundle1bce.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Ikon-Crypto9015.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Ikon-Crypto9015.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Ikon-Crypto9015.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Boldd41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Light.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Lightd41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Medium.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Mediumd41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-Regulard41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-SemiBold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-SemiBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-SemiBold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/Poppins-SemiBoldd41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/fa-brands-400d41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/fa-regular-400d41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/fa-solid-900d41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/themify.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/themify.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/themify.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/themifyd41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/fonts/themifyd41d.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/dot-a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/dot-b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/dot-c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/hexagon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/light-ix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-a-dark.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-a-dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-a-md.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-a-md.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-a.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-c-dark.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-c-dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-c-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-c-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-c.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-d.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-d2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-d2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-e.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-f-footer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-f-footer.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-f.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-line-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-line-a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-line-b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-line-c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-line-d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/mask-line.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/polygon-a-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/polygon-a-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/polygon-fill.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/polygon-line-a-fill.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/polygon-line-a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/polygon-line-b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/polygon-line-c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-a-sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-a2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-b-sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-c-sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-d-sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-e-sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-f-sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-g-sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-h-sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-i-sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-m.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-o.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-q.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-s-sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-t.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-u.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-v.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-w.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-x-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-x-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-y.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-z.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-z2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-z3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-z4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-z6-sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-z6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/shape-z7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/sort_asc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/sort_asc_disabled.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/sort_both.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/sort_desc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/sort_desc_disabled.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/ui-shape-light-a.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/ui-shape-light-b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/ui-shape-zinnia-a.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/images/ui-shape-zinnia-b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/js/charts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/js/jquery.bundle1bce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/js/scripts1bce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/walletconnect-chunk3860.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/assets/walletconnect-main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/mint-script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/rarity.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/static/css/main.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotusSITE/static/media/builton.a4e80c1e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/contracts/RogueReindeerNFT.sol" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/contracts/RogueReindeerNFT.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App2.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/MainPage/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/MainPage/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/scripts/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/scripts/deploy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/contracts/RogueReindeerNFT.sol/RogueReindeerNFT.dbg.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/contracts/RogueReindeerNFT.sol/RogueReindeerNFT.dbg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/contracts/RogueReindeerNFT.sol/RogueReindeerNFT.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Dapp/artifacts/contracts/RogueReindeerNFT.sol/RogueReindeerNFT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/MainPage/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/MainPage/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/hashlips_art_engine/src/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine" beforeDir="false" afterPath="$PROJECT_DIR$/hashlips_art_engine" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +99,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hashlips_art_engine/layers/BODIES" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/Dapp" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -312,11 +115,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\hashlips_art_engine\layers\BODIES" />
-      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\hashlips_art_engine\layers\BACKIES" />
-      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\hashlips_art_engine\layers\HATIES" />
       <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\src\Dapp" />
-      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\src\MainPage" />
+      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend" />
+      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\contracts" />
+      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\src" />
+      <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\hashlips_art_engine\layers\HATIES" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\robbe\WebstormProjects\rouge_reindeers\frontend\src\MainPage" />
@@ -372,7 +175,6 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django Server.Main" />
       <item itemvalue="npm.start" />
     </list>
   </component>
@@ -402,7 +204,6 @@
       <workItem from="1638702427427" duration="1922000" />
       <workItem from="1638704895353" duration="2892000" />
       <workItem from="1638881296992" duration="14759000" />
-      <workItem from="1639845711320" duration="1586000" />
     </task>
     <task id="LOCAL-00001" summary="update of front">
       <created>1637430896615</created>
@@ -567,6 +368,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update of front" />
