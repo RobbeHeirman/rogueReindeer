@@ -156,48 +156,61 @@ const App = () => {
                     <div className="container">
                         <div className="section-head text-center wide-auto-sm">
                             <h2 className="title title-s4" title="Why Rogue Reindeer?">
-                                Why Rogue Reindeer?
-                            </h2>
-                            <ol>
-                                <li>
-                                    The Christmas period is a time for festivities with family and friends.
-                                    Time spent enjoying good food, opening presents, and sharing smiles around the
-                                    fireplace.
-                                    Sadly, not everyone is fortunate enough to share these experiences.
-                                    That is why we, the Rogue Reindeer team, are dedicated to spreading those jolly
-                                    moments
-                                    and hope that you join us in our <b>MISSION OF JOY</b> for those less fortunate.
-                                    We
-                                    hope to deliver high quality artwork to be used as a PFP or
-                                    however you like. <br/> <b>But why should you mint?</b><br/><br/><b
-                                >1. Aesthetics </b
-                                >
-                                    - every attribute has been hand-drawn in house by <u><b><a
-                                    href="https://www.instagram.com/piocomic/">Pío</a></b></u>. This is a
-                                    completely original ground-up project. It was designed with
-                                    profile pictures in mind so every piece will look great on
-                                    your account.<br/><b>2. Guaranteed access</b> - Rogue Reindeer holders are
-                                    guaranteed
-                                    access to future mints, airdrops and more goodies.
-                                    <br/><b>3. Low mint price </b>- We have kept
-                                    the mint price low at <b>0.03 ETH</b> for accessibility.<br/><b
-                                >4. Charitable donation </b
-                                >- 10% of the proceeds from mint will go straight to charity.
-                                    We have a partnership with <u><b><a
-                                    href="https://www.pelicano.be">STICHTING PELICANO</a></b></u>, an organization that supports
-                                    children
-                                    in need.
-                                    More charities will be chosen by community vote.<br/>
-                                    <b>5. NFT staking </b>
-                                    - NFT staking will be introduced, powering our <b>own ecosystem with $PINE
-                                    token.</b><br/>
-                                    <b> 6. Metaverse</b> - We’ll be looking to buy digital land in different Metaverses,
-                                    the location and what kind of activities will be decided together with the
-                                    community. <br/><br/>
-                                     <b> 7. P2E Game</b> - We’ll develop a P2E (play to earn)
-                                    game where you can <b>collect $PINE tokens, just by playing!</b>{" "}
-                                    <br />
-                                    <br />
+                                 Why Rogue Reindeer?
+                </h2>
+                <ol>
+                  <li>
+                    The Christmas period is a time for festivities with family
+                    and friends. Time spent enjoying good food, opening
+                    presents, and sharing smiles around the fireplace. Sadly,
+                    not everyone is fortunate enough to share these experiences.
+                    That is why we, the Rogue Reindeer team, are dedicated to
+                    spreading those jolly moments and hope that you join us in
+                    our <b>MISSION OF JOY</b> for those less fortunate. We hope
+                    to deliver high quality artwork to be used as a PFP or
+                    however you like. <br /> <br />{" "}
+                    <b>But why should you mint?</b>
+                    <br />
+                    <br />
+                    <b>1. Aesthetics </b>- every attribute has been hand-drawn
+                    in house by{" "}
+                    <u>
+                      <b>
+                        <a href="https://www.instagram.com/piocomic/">Pío</a>
+                      </b>
+                    </u>
+                    . This is a completely original ground-up project. It was
+                    designed with profile pictures in mind so every piece will
+                    look great on your account.
+                    <br />  <br />
+                    <b>2. Guaranteed access</b> - Rogue Reindeer holders are
+                    guaranteed access to future mints, airdrops and more
+                    goodies.
+                    <br />  <br />
+                    <b>3. Low mint price </b>- We have kept the mint price low
+                    at <b>0.03 ETH</b> for accessibility.
+                    <br />  <br />
+                    <b>4. Charitable donation </b>- 10% of the proceeds from
+                    mint will go straight to charity. We have a partnership with{" "}
+                    <u>
+                      <b>
+                        <a href="https://www.pelicano.be">STICHTING PELICANO</a>
+                      </b>
+                    </u>
+                    , an organization that supports children in need. More
+                    charities will be chosen by community vote.
+                    <br />  <br />
+                    <b>5. NFT staking </b>- NFT staking will be introduced,
+                    powering our <b>own ecosystem with $PINE token.</b>
+                    <br />  <br />
+                    <b> 6. Metaverse</b> - We’ll be looking to buy digital land
+                    in different Metaverses, the location and what kind of
+                    activities will be decided together with the community.{" "}
+                    <br />  <br />
+                    <b> 7. P2E Game</b> - We’ll develop a P2E (play to earn)
+                    game where you can <b>collect $PINE tokens, just by playing!</b>{" "}
+                    <br />
+                    <br />
                                 </li>
                             </ol>
                         </div>
