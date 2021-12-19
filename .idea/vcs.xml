@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/backend/hashlips_art_engine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backend/nft-generator-py" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/hashlips_art_engine" vcs="Git" />
   </component>
 </project>
