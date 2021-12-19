@@ -189,11 +189,15 @@ const App = () => {
                                     in need.
                                     More charities will be chosen by community vote.<br/>
                                     <b>5. NFT staking </b>
-                                    - NFT staking will be introduced, powering our <b>own ecosystem with $ROGUE
+                                    - NFT staking will be introduced, powering our <b>own ecosystem with $PINE
                                     token.</b><br/>
                                     <b> 6. Metaverse</b> - We’ll be looking to buy digital land in different Metaverses,
                                     the location and what kind of activities will be decided together with the
                                     community. <br/><br/>
+                                     <b> 7. P2E Game</b> - We’ll develop a P2E (play to earn)
+                                    game where you can <b>collect $PINE tokens, just by playing!</b>{" "}
+                                    <br />
+                                    <br />
                                 </li>
                             </ol>
                         </div>
@@ -364,7 +368,7 @@ const App = () => {
                                                     href="https://www.instagram.com/piocomic/">artist Pío</a></b></u> will 
                                                     create more content for future mints and introduce them in a
                                                     comicbook where all the future NFT characters will meet.
-                                                    Other digital art like a <b>short movie</b> and a <b>browser game</b> will follow later on.<br/>
+                                                    Other digital art like a <b>short movie</b> and a <b>P2E game</b> will follow later on.<br/>
                                                 </p>
                                             </div>
                                         </div>
