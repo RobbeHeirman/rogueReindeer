@@ -23,19 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d216f8bc-e628-4ef4-894d-8d7d1196d819" name="Default Changelist" comment="Pushed hardhat to backend">
-      <change afterPath="$PROJECT_DIR$/backend/dapp/contracts/RogueReindeerNFT.sol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/dapp/contracts/Token.sol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/dapp/hardhat.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/dapp/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/dapp/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/dapp/scripts/deploy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/dapp/scripts/mint-nft.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/dapp/test/Token.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/dapp/test/RogueReindeerNFT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rouge_reindeers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rouge_reindeers.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/scripts/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/scripts/deploy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Dapp/Minter.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Dapp/Minter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/MainPage/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/MainPage/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dapp/contracts/RogueReindeerNFT.sol" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dapp/contracts/RogueReindeerNFT.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dapp/contracts/Token.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dapp/hardhat.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dapp/hardhat.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dapp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dapp/test/Token.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +64,7 @@
         <entry key="$PROJECT_DIR$/hashlips_art_engine" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend/nft-generator-py" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -102,6 +97,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/dapp" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/frontend/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -131,6 +127,19 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
+    <configuration name="Token contract" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/frontend/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/backend/dapp" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/backend/dapp/test/RogueReindeerNFT.js" />
+      <test-names>
+        <test-name value="Token contract" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="index" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="rouge_reindeers" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,8 +217,16 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Jest.Token contract" />
+      <item itemvalue="Python.index" />
+      <item itemvalue="Django Server.Main" />
       <item itemvalue="npm.start" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Token contract" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -238,6 +255,7 @@
       <workItem from="1638704895353" duration="2892000" />
       <workItem from="1638881296992" duration="14759000" />
       <workItem from="1639845711320" duration="18071000" />
+      <workItem from="1640023172450" duration="3261000" />
     </task>
     <task id="LOCAL-00001" summary="update of front">
       <created>1637430896615</created>
@@ -416,7 +434,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update of front" />

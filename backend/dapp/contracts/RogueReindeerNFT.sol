@@ -11,13 +11,18 @@ contract RogueReindeerNFT is ERC721URIStorage{
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
-    constructor() public ERC721("RogueReindeerNFT", "RRNFT") {}
+    address payable owner;
+
+    constructor() public ERC721("RogueReindeerNFT", "RRNFT") {
+        owner = payable(msg.sender);
+    }
 
     function mintNFT(address recipient, string memory tokenURI)
         public payable
         returns (uint256)
     {
-        require(msg.value >= 4, "Not enough ETH sent; check price!");
+        require(msg.value >= 0.03 ether, "Not enough ETH sent; check price!");
+        owner.transfer(msg.value);
         _tokenIds.increment();
 
         uint256 newItemId = _tokenIds.current();
