@@ -7,9 +7,9 @@ const Minter = (props) => {
     //State variables
     const [walletAddress, setWallet] = useState("");
     const [status, setStatus] = useState("");
-    const [name, setName] = useState("");
-    const [description, setDescription] = useState("");
-    const [url, setURL] = useState("");
+    const [name, setName] = useState("test");
+    const [description, setDescription] = useState("test");
+    const [url, setURL] = useState("https://gateway.pinata.cloud/ipfs/Qmao2kFXXuECHxLCfXa4y1ydVt3hrRP1jWwH51BgU2QpNt");
 
     useEffect(async () => { //TODO: implement
 
