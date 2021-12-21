@@ -1,6 +1,7 @@
 import '../assets/css/dapp.css'
 import {useEffect, useState} from "react";
-import {mintNFT} from "../MainPage/actions";
+import {getMetadata, mintNFT} from "../MainPage/actions";
+import {getCidData} from "./pinata";
 
 const Minter = (props) => {
 
@@ -63,8 +64,11 @@ const Minter = (props) => {
                         onChange={(event) => setDescription(event.target.value)}
                     />
                 </form>
-                <button id="mintButton" onClick={onMintPressed}>
+                <button  onClick={mintNFT}>
                     Mint NFT
+                </button>
+                <button id="mintButton" onClick={() => getCidData('QmdFYGdoSosMKQoVWrEn99p8SGupKooN5BjerG2c4cej2E')}>
+                    CID
                 </button>
                 <p id="status">
                     {status}

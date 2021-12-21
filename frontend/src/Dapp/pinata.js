@@ -4,7 +4,14 @@ const secret = process.env.REACT_APP_PINATA_SECRET;
 
 const axios = require('axios');
 
-export const pinJSONToIPFS = async(JSONBody) => {
+const getPinataHeader = () => {
+    return {
+        pinata_api_key: key,
+        pinata_secret_api_key: secret,
+    }
+}
+
+export const pinJSONToIPFS = async (JSONBody) => {
     const url = `https://api.pinata.cloud/pinning/pinJSONToIPFS`;
     //making axios POST request to Pinata ⬇️
     return axios
@@ -29,3 +36,19 @@ export const pinJSONToIPFS = async(JSONBody) => {
 
         });
 };
+
+
+export const getCidData = async (cid) => {
+    const header = getPinataHeader();
+    let querystring = '?';
+    querystring += `hashContains=${cid}`;
+    const response = await axios.get(`https://api.pinata.cloud/data/pinList${querystring}`, {headers: header});
+    console.log(cid)
+    console.log(response.data)
+
+
+}
+
+
+// getCidData('');
+
