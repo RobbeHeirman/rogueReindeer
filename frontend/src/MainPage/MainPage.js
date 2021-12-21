@@ -186,14 +186,14 @@ const MainPage = () => {
                     . This is a completely original ground-up project. It was
                     designed with profile pictures in mind so every piece will
                     look great on your account.
-                    <br />  <br />
+                    <br /> <br />
                     <b>2. Guaranteed access</b> - Rogue Reindeer holders are
                     guaranteed access to future mints, airdrops and more
                     goodies.
-                    <br />  <br />
+                    <br /> <br />
                     <b>3. Low mint price </b>- We have kept the mint price low
                     at <b>0.03 ETH</b> for accessibility.
-                    <br />  <br />
+                    <br /> <br />
                     <b>4. Charitable donation </b>- 10% of the proceeds from
                     mint will go straight to charity. We have a partnership with{" "}
                     <u>
@@ -203,17 +203,18 @@ const MainPage = () => {
                     </u>
                     , an organization that supports children in need. More
                     charities will be chosen by community vote.
-                    <br />  <br />
+                    <br /> <br />
                     <b>5. NFT staking </b>- NFT staking will be introduced,
-                    powering our <b>own ecosystem with $PINE token.</b>
-                    <br />  <br />
+                    powering our <b>own ecosystem with $PINE token. </b> More
+                    info about the $PINE token in our roadmap below.
+                    <br /> <br />
                     <b> 6. Metaverse</b> - We’ll be looking to buy digital land
                     in different Metaverses, the location and what kind of
                     activities will be decided together with the community.{" "}
-                    <br />  <br />
+                    <br /> <br />
                     <b> 7. P2E Game</b> - We’ll develop a P2E (play to earn)
-                    game where you can <b>collect $PINE tokens, just by playing!</b>{" "}
-                    <br />
+                    game where you can{" "}
+                    <b>collect $PINE tokens, just by playing!</b> <br />
                     <br />
                   </li>
                 </ol>
@@ -324,39 +325,23 @@ const MainPage = () => {
                         <div className="roadmap-step">
                           <div className="roadmap-head">
                             <span className="roadmap-time">
-                              Wednesday 22th December 2021
-                            </span>
-                            <span className="roadmap-title">PRESALE</span>
-                          </div>
-                          <p>
-                            To reward our earliest supporters and active members
-                            - those first 500 who join our Discord and those
-                            with the Rogue Deer Role will be able to receive
-                            whitelist access to the full collection. They get an
-                            amazing opportunity to mint earlier with less rush.
-                            There will be no difference in mint price. <br />
-                          </p>
-                        </div>
-                      </div>
-                      <div className="roadmap roadmap-left">
-                        <div className="roadmap-step">
-                          <div className="roadmap-head">
-                            <span className="roadmap-time">
                               Thursday 23 december 2021
                             </span>
                             <span className="roadmap-title">LAUNCH</span>
                           </div>
                           <p>
                             We launch the full collection to the public and get
-                            listed on OpenSea.
+                            listed and verified on OpenSea. 20% of all mints
+                            will be divided evenly into our Treasury Fund for
+                            our Donations & Dev Fund for further development of
+                            our game + future upgrades.
                             <br />
                           </p>
                         </div>
                       </div>
-                      <div className="roadmap roadmap-right">
+                      <div className="roadmap roadmap-left">
                         <div className="roadmap-step">
                           <div className="roadmap-head">
-                            <span className="roadmap-time" />
                             <span className="roadmap-title">DONATION</span>
                           </div>
                           <p>
@@ -371,10 +356,42 @@ const MainPage = () => {
                                 </a>
                               </b>
                             </u>
-                            . We want to donate to organizations that are
-                            supporting children all over the world. More
+                            . Later on we will donate to organizations that are
+                            supporting children all over the world. Those
                             charities will be chosen by community vote.
                             <br />
+                          </p>
+                        </div>
+                      </div>
+                      <div className="roadmap roadmap-right">
+                        <div className="roadmap-step">
+                          <div className="roadmap-head">
+                            <span className="roadmap-time">Q1 2022</span>
+                            <span className="roadmap-title">$PINE TOKEN </span>
+                          </div>
+                          <p>
+                            We will power our ecosystem with the{" "}
+                            <b>$PINE token. </b>
+                            But what can you do with it? <br /> <br />
+                            1. <b>Sell</b> $PINE in exchange for another
+                            cryptocurrency and use the money for personal
+                            preferences <br />
+                            <br />
+                            2. You can <b>stake</b> them together with your Rogue
+                            Reindeer and <b>earn an extra %.</b> <br />
+                            <br />
+                            3. If you have reached an X amount of $PINE tokens,
+                            you can become a <b>Rogue Ambassador.</b> You will
+                            have a chance to <b>gift</b> your $PINE tokens to a charity
+                            chosen by you. <br />
+                            <br />
+                            If you decide to do this we will
+                            <b> double</b> the amount out of our Treasury Fund
+                            and handle all communication & socials.<br /> Should you
+                            desire, we can gift you <b>an all paid trip</b> to your chosen
+                            charity where you can personally deliver our message
+                            & support from all of the RR Community.
+                            <span />
                           </p>
                         </div>
                       </div>
@@ -414,14 +431,46 @@ const MainPage = () => {
                               </b>
                             </u>{" "}
                             will create more content for future mints and
-                            introduce them in a comicbook where all the future
-                            NFT characters will meet. Other digital art like a{" "}
-                            <b>short movie</b> and a <b>P2E game</b> will
-                            follow later on.
+                            introduce them in a <b>comicbook</b> where all the
+                            future NFT characters will meet.
                             <br />
                           </p>
                         </div>
                       </div>
+                      <div className="roadmap roadmap-left">
+                        <div className="roadmap-step">
+                          <div className="roadmap-head">
+                            <span className="roadmap-time">Q2 2022</span>
+
+                            <span className="roadmap-title">RR P2E GAME</span>
+                          </div>
+                          <p>
+                            Creation of our very own <b>P2E game</b> where our
+                            Rogue Reindeer need to defeat Corrupt Santa, while
+                            collecting <b>$PINE tokens</b> in the process.{" "}
+                            <br />
+                            <br />
+                            Run around as a Rogue Reindeer in all kinds of levels
+                            defeating Corrupt Santa while
+                            collecting as much <b>$PINE</b> as you can. <br />
+                            <br />
+                            Some $PINE tokens will be easy to grab by simply
+                            taking them, others are hidden in giftboxes,
+                            Christmas trees.
+                            <br />
+                            <br />
+                            You will rise in the leaderbord by collecting more
+                            and more $PINE and by completing the game in a
+                            <b> record time.</b>
+                            <br />
+                            The winner will receive additional rewards. <br />
+                            <br />
+                            <b>CAN YOU DEFEAT CURRUPT SANTA?</b>
+                            <br />
+                          </p>
+                        </div>
+                      </div>
+                      
                     </div>
                   </div>
                 </div>
