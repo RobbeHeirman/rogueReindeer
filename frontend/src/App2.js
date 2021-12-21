@@ -466,7 +466,7 @@ const App = () => {
                           </p>
                         </div>
                       </div>
-                      
+
                     </div>
                   </div>
                 </div>
@@ -834,4 +834,4 @@ const App = () => {
   );
 };
 
-export default MainPage;
+export default App;

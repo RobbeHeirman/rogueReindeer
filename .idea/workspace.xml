@@ -23,9 +23,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d216f8bc-e628-4ef4-894d-8d7d1196d819" name="Default Changelist" comment="settings">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/rogue_reindeer/rogue_reindeer/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/rogue_reindeer/rogue_reindeer/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App2.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine" beforeDir="false" afterPath="$PROJECT_DIR$/hashlips_art_engine" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/.nvmrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/constants/blend_mode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/constants/network.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Background/Black#1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Bottom lid/High#20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Bottom lid/Low#40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Bottom lid/Middle#40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Eye color/Cyan#1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Eye color/Green#1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Eye color/Pink#1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Eye color/Purple#1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Eye color/Red#1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Eye color/Yellow#10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Eyeball/Red#50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Eyeball/White#50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Goo/Green#1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Iris/Large#20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Iris/Medium#20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Iris/Small#60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Shine/Shapes#100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Top lid/High#30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Top lid/Low#20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/layers/Top lid/Middle#50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/modules/HashlipsGiffer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/src/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/utils/generate_metadata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/utils/pixelate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/utils/preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/utils/preview_gif.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/utils/rarity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/utils/update_info.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashlips_art_engine/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +203,6 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django Server.Main" />
       <item itemvalue="npm.start" />
     </list>
   </component>
