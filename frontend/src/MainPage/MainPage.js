@@ -6,6 +6,7 @@ import gif from "../assets/images/gif.gif";
 import img1 from "../assets/images/1.gif";
 import Navbar from "./Navbar";
 import {useEffect, useState} from "react";
+import MintBox from "../Dapp/MintBox";
 
 const MainPage = () => {
     const [isDark, setIsDark] = useState(window.pageYOffset !== 0);
@@ -39,23 +40,7 @@ const MainPage = () => {
                                                         Ethereum Blockchain
                                                     </p>
                                                 </div>
-                                                <div id="mint-box" className="cpn-btns">
-                                                    <div
-                                                        className="
-                              token-status token-status-s5
-                              bg-theme-alt
-                              round
-                              no-bd
-                            "
-                                                    >
-                                                        <p>Mint date: 23 december</p>
-                                                        <a
-                                                            href=""
-                                                            className="btn btn-grad btn-round"
-                                                        >23 december 2021 07:00 PM UTC +1</a
-                                                        >
-                                                    </div>
-                                                </div>
+                                                <MintBox/>
                                                 <div className="cpn-social">
                                                     <ul className="social">
                                                         <li>
