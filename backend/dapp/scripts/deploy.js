@@ -1,6 +1,6 @@
 const { ethers } = require("hardhat")
 async function main() {
-  const RRNFT = await ethers.getContractFactory("RogueReindeerNFT")
+  const RRNFT = await ethers.getContractFactory("RRNFTContract")
 
   // Start deployment, returning a promise that resolves to a contract object
   const myNFT = await RRNFT.deploy()
