@@ -7,22 +7,23 @@ import {useEffect, useState} from "react";
 
 const Navbar = () => {
 
-    const [walletConnectStatus, setWalletConnectStatus] = useState("");
+    // const [walletConnectStatus, setWalletConnectStatus] = useState("");
     const [walletAddress, setWalledAddress] = useState("");
 
     useEffect(
-        async () =>{
-            const {address, status} = await connectWallet('eth_accounts');
+         () =>{
+             (async () =>{
+            const {address} = await connectWallet('eth_accounts');
             setWalledAddress(address ? address : '');
-            setWalletConnectStatus(status);
-            addWalletListener();
+            // setWalletConnectStatus(status);
+            addWalletListener() })();
         }
     , [])
 
     const connectWalletPressed = async (e) => {
         e.preventDefault();
         const walletResponse = await connectWallet();
-        setWalletConnectStatus(walletResponse.status);
+        // setWalletConnectStatus(walletResponse.status);
         setWalledAddress(walletResponse.address);
     }
 
@@ -31,23 +32,23 @@ const Navbar = () => {
             window.ethereum.on("accountsChanged", (accounts) => {
                 if (accounts.length > 0) {
                     setWalledAddress(accounts[0]);
-                    setWalletConnectStatus("👆🏽 Write a message in the text-field above.");
+                    // setWalletConnectStatus("👆🏽 Write a message in the text-field above.");
                 } else {
                     setWalledAddress("");
-                    setWalletConnectStatus("🦊 Connect to Metamask using the top right button.");
+                    // setWalletConnectStatus("🦊 Connect to Metamask using the top right button.");
                 }
             });
         } else {
-            setWalletConnectStatus(
-                <p>
-                    {" "}
-                    🦊{" "}
-                    <a target="_blank" href={`https://metamask.io/download.html`}>
-                        You must install Metamask, a virtual Ethereum wallet, in your
-                        browser.
-                    </a>
-                </p>
-            );
+            // setWalletConnectStatus(
+            //     <p>
+            //         {" "}
+            //         🦊{" "}
+            //         <a target="_blank" href={`https://metamask.io/download.html`}>
+            //             You must install Metamask, a virtual Ethereum wallet, in your
+            //             browser.
+            //         </a>
+            //     </p>
+            // );
         }
     }
     return (
@@ -63,7 +64,7 @@ const Navbar = () => {
 
                     <div className="header-nav-toggle">
                         <a
-                            href="#"
+                            href="/#"
                             className="navbar-toggle"
                             data-menu-toggle="example-menu-04"
                         >
@@ -77,37 +78,39 @@ const Navbar = () => {
                         <nav className="header-menu" id="example-menu-04">
                             <ul className="menu menu-s2">
                                 <li className="menu-item">
-                                    <a className="menu-link nav-link" href="">Home</a>
+                                    <a className="menu-link nav-link" href="/">Home</a>
                                 </li>
 
                                 <li className="menu-item">
-                                    <a className="menu-link nav-link" href="#about"
+                                    <a className="menu-link nav-link" href="/#about"
                                     >About</a
                                     >
                                 </li>
                                 <li className="menu-item">
-                                    <a className="menu-link nav-link" href="#whyMint"
+                                    <a className="menu-link nav-link" href="/#whyMint"
                                     >Why mint?</a
                                     >
                                 </li>
                                 <li className="menu-item">
-                                    <a className="menu-link nav-link" href="#roadmap"
+                                    <a className="menu-link nav-link" href="/#roadmap"
                                     >Roadmap</a
                                     >
                                 </li>
                                 <li className="menu-item">
-                                    <a className="menu-link nav-link" href="#faq"
+                                    <a className="menu-link nav-link" href="/#faq"
                                     >FAQ</a
                                     >
                                 </li>
                                 <li className="menu-item">
                                     <a target="_blank" href="https://discord.gg/QrFNGhKVDV"
+                                       rel="noreferrer"
                                     ><em className="fab fa-discord"/>
                                     </a>
                                 </li>
                                 <li className="menu-item">
                                     <a
                                         target="_blank"
+                                        rel="noreferrer"
                                         href="https://twitter.com/Rogue_Reindeer/"
                                     ><em className="fab fa-twitter"/>
                                     </a>

@@ -1,16 +1,17 @@
-import {pinJSONToIPFS} from "../Dapp/pinata";
 import axios from "axios";
+
 
 require('dotenv').config();
 
+const alchemyKey = "https://eth-mainnet.alchemyapi.io/v2/9bEhlwbJ8hSRiC1fDQrG0Ff3yuD7Xxm_"
 
-const alchemyKey = process.env.REACT_APP_ALCHEMY_KEY;
 const {createAlchemyWeb3} = require("@alch/alchemy-web3");
 const web3 = createAlchemyWeb3(alchemyKey);
 const BN = require('bn.js');
 
-const contractABI = require("../Dapp/artifacts/contracts/RogueReindeerNFT.sol/RogueReindeerNFT.json").abi;
-const contractAddress = "0x05268471fd0C22F446dfcC00a58BC2B58e29eE7e";
+const contractABI = require("../Dapp/artifacts/contracts/RRNFTContract.sol/RogueReindeerNFTS.json").abi;
+const contractAddress = "0xf6649afdcf862aab64ad0681bec71ccb224cc4fc";
+
 /**
  *
  * @param method the method we call the etherium request
@@ -19,7 +20,6 @@ const contractAddress = "0x05268471fd0C22F446dfcC00a58BC2B58e29eE7e";
  * @returns {Promise<{address: string, status: string}|{address: string, status: JSX.Element}|{address, status: string}>}
  */
 export const connectWallet = async (method = 'eth_requestAccounts') => {
-    console.log(method)
     if (window.ethereum) {
         try {
             const addressArray = await window.ethereum.request({
@@ -27,7 +27,7 @@ export const connectWallet = async (method = 'eth_requestAccounts') => {
             });
 
             return {
-                status: "👆🏽 Write a message in the text-field above.",
+                status: "Success",
                 address: addressArray[0],
             };
         } catch (err) {
@@ -46,7 +46,7 @@ export const connectWallet = async (method = 'eth_requestAccounts') => {
           <p>
             {" "}
               🦊{" "}
-              <a target="_blank" href={`https://metamask.io/download.html`}>
+              <a target="_blank" rel="noopener noreferrer" href={`https://metamask.io/download.html`}>
               You must install Metamask, a virtual Ethereum wallet, in your
               browser.
             </a>
@@ -57,20 +57,36 @@ export const connectWallet = async (method = 'eth_requestAccounts') => {
     }
 };
 
+export const count = async () => {
 
-export const mintNFT = async () => {
+    const contract = await new web3.eth.Contract(contractABI, contractAddress);
+    const params = {
+        'to': contractAddress,
+        'data': contract.methods.totalSupply().encodeABI()
+    }
+    try {
+        const answer = await window.ethereum.request({
+            method: 'eth_call',
+            params: [params, 'latest']
+        })
 
-    const rsp = await getMetadata();
-    const tokenURI = rsp.data['ipfs'];
+
+        return web3.utils.hexToNumberString(answer);
+    } catch {
+        return 'Unknown'
+    }
+}
+export const mintNFT = async (amount) => {
     //load smart contract
     window.contract = await new web3.eth.Contract(contractABI, contractAddress);//loadContract();
-    //set up your Ethereum transaction
+
     const transactionParameters = {
         to: contractAddress, // Required except during contract publications.
         from: window.ethereum.selectedAddress, // must match user's active address.
-        'data': window.contract.methods.mintNFT(window.ethereum.selectedAddress, tokenURI).encodeABI(), //make call to NFT smart contract
-        value: new BN(web3.utils.toWei('0.03', 'ether', 16)).toString('hex')
 
+        'data': window.contract.methods.mint(window.ethereum.selectedAddress, amount).encodeABI(), //make call to NFT smart contract
+        value: new BN(web3.utils.toWei((0.03 * amount).toString(10),
+            'ether')).toString('hex')
     };
 
     //sign transaction via Metamask
@@ -82,7 +98,7 @@ export const mintNFT = async () => {
             });
         return {
             success: true,
-            status: "✅ Check out your transaction on Etherscan: https://ropsten.etherscan.io/tx/" + txHash
+            status: "✅ Transaction hash" + txHash
         }
     } catch (error) {
         return {
