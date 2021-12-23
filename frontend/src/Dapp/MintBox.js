@@ -5,9 +5,9 @@ import ConnectWalletButton from "../MainPage/ConnectWalletButton";
 import {connectWallet, count, mintNFT} from "../MainPage/actions";
 
 const MintBox = () => {
-    const dl = Date.UTC(2021, 12, 23, 18, 0, 0);
-    const today = Date.now()
-    return today > dl ? <Minter/> : <MinInfo/>;
+    const d = new Date("December 23, 2021 17:00:00");
+    let hour = d.getHours();
+    return hour <= new Date().getHours() ? <Minter/> : <MinInfo/>;
 }
 
 const MinInfo = () => {
@@ -35,16 +35,24 @@ const Minter = () => {
         setMintStatus(status);})()
     }
     useEffect(() => {
-        count().then((val) => SetMintAmount(val ?  val: 'unknown'))
+
         addWalletListener().then();
     }, [])
     const addWalletListener = async () => {
-        const {address} = await connectWallet('eth_accounts');
-        setConnect(address.length > 0)
+        const {address}  = await connectWallet('eth_accounts');
+        if (address){
+            setConnect(address.length > 0)
+            count().then((val) => SetMintAmount(val ?  val: 'unknown'))
+        }
+        else{
+            setConnect(false);
+        }
+
         if (window.ethereum) {
             window.ethereum.on("accountsChanged", (accounts) => {
                 if (accounts.length > 0) {
                     setConnect(true);
+                    count().then((val) => SetMintAmount(val ?  val: 'unknown'))
                 } else {
                     setConnect(false);
                 }

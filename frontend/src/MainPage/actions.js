@@ -12,6 +12,7 @@ const BN = require('bn.js');
 const contractABI = require("../Dapp/artifacts/contracts/RRNFTContract.sol/RogueReindeerNFTS.json").abi;
 const contractAddress = "0xf6649afdcf862aab64ad0681bec71ccb224cc4fc";
 
+
 /**
  *
  * @param method the method we call the etherium request
@@ -31,7 +32,6 @@ export const connectWallet = async (method = 'eth_requestAccounts') => {
                 address: addressArray[0],
             };
         } catch (err) {
-            console.log(err.message)
             return {
 
                 address: "",
