@@ -28,7 +28,7 @@ const Minter = () => {
 
     const [mintStatus, setMintStatus] = useState('')
     const [value, setValue] = useState(1);
-    const [mintAmount, SetMintAmount] = useState('Unknown');
+    const [mintAmount, SetMintAmount] = useState('?');
     const localMint =  () => {
         (async () =>{
         const {status} = await mintNFT(value)
@@ -103,8 +103,8 @@ const Minter = () => {
                 <hr/>
                 <h5>{mintAmount}/10.000 Minted</h5>
                 <hr/>
-                <h5>Rogue Reindeers cost 0.03 <img alt={''} className={'img img-fluid'} width={10} src={ethImg}/> each</h5>
-                <p>Exluding gas fees</p>
+                <h5>Rogue Reindeer cost 0.03 <img alt={''} className={'img img-fluid'} width={10} src={ethImg}/> each</h5>
+                <p>Excluding gas fees</p>
                 <hr/>
                 {render}
             </div>
