@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.db86378c.chunk.css",
+    "main.js": "/static/js/main.678c7d76.chunk.js",
+    "main.js.map": "/static/js/main.678c7d76.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7dc7a4b4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7dc7a4b4.js.map",
+    "static/js/2.dc8cf19d.chunk.js": "/static/js/2.dc8cf19d.chunk.js",
+    "static/js/2.dc8cf19d.chunk.js.map": "/static/js/2.dc8cf19d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.db86378c.chunk.css.map": "/static/css/main.db86378c.chunk.css.map",
+    "static/js/2.dc8cf19d.chunk.js.LICENSE.txt": "/static/js/2.dc8cf19d.chunk.js.LICENSE.txt",
+    "static/media/1.04dd9906.gif": "/static/media/1.04dd9906.gif",
+    "static/media/vendor.bundle1bce.css": "/static/media/themifyd41d.c4292f34.svg",
+    "static/media/Logo.29b9254e.png": "/static/media/Logo.29b9254e.png",
+    "static/media/style-zinnia1bce.css": "/static/media/ui-shape-zinnia-b.f31d895a.svg",
+    "static/media/etherium.488ccea7.png": "/static/media/etherium.488ccea7.png",
+    "static/media/gif.a8f12449.gif": "/static/media/gif.a8f12449.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7dc7a4b4.js",
+    "static/js/2.dc8cf19d.chunk.js",
+    "static/css/main.db86378c.chunk.css",
+    "static/js/main.678c7d76.chunk.js"
+  ]
+}
