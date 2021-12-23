@@ -5,7 +5,7 @@ import ConnectWalletButton from "../MainPage/ConnectWalletButton";
 import {connectWallet, count, mintNFT} from "../MainPage/actions";
 
 const MintBox = () => {
-    const d = new Date("December 23, 2021 17:00:00");
+    const d = new Date("December 23, 2021 19:00:00");
     let hour = d.getHours();
     return hour <= new Date().getHours() ? <Minter/> : <MinInfo/>;
 }
